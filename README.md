@@ -13,4 +13,5 @@ pip install -r requirements.txt
 python modelling_random_forest.py > outputs/random_forest.txt
 ```
 
-
+# References
+- Random oversampling and undersampling for imbalanced classification : [Link](https://machinelearningmastery.com/random-oversampling-and-undersampling-for-imbalanced-classification/).
