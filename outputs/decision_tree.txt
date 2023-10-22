@@ -4,16 +4,16 @@
 Parameters set : {'criterion': 'gini', 'max_depth': 10, 'min_samples_split': 2}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.56, accuracy = 0.91, f1_score = 0.61
- -- Split #2, performance metrics mcc = 0.52, accuracy = 0.91, f1_score = 0.57
- -- Split #3, performance metrics mcc = 0.52, accuracy = 0.90, f1_score = 0.57
- -- Split #4, performance metrics mcc = 0.50, accuracy = 0.90, f1_score = 0.56
- -- Split #5, performance metrics mcc = 0.51, accuracy = 0.90, f1_score = 0.56
+ -- Split #1, performance metrics mcc = 0.53, accuracy = 0.91, f1_score = 0.58
+ -- Split #2, performance metrics mcc = 0.53, accuracy = 0.91, f1_score = 0.58
+ -- Split #3, performance metrics mcc = 0.51, accuracy = 0.90, f1_score = 0.56
+ -- Split #4, performance metrics mcc = 0.52, accuracy = 0.90, f1_score = 0.57
+ -- Split #5, performance metrics mcc = 0.56, accuracy = 0.91, f1_score = 0.61
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.5219, STD=0.0221
- -- accuracy : Mean=0.9045, STD=0.0061
- -- f1_score : Mean=0.5749, STD=0.0183
+ -- mcc : Mean=0.5288, STD=0.0179
+ -- accuracy : Mean=0.9067, STD=0.0042
+ -- f1_score : Mean=0.5804, STD=0.0152
 --------------------------------------------------------------------------------------
 
 
@@ -21,16 +21,16 @@ Performance metrics of model model
 Parameters set : {'criterion': 'gini', 'max_depth': 10, 'min_samples_split': 5}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.46, accuracy = 0.90, f1_score = 0.51
- -- Split #2, performance metrics mcc = 0.57, accuracy = 0.91, f1_score = 0.62
- -- Split #3, performance metrics mcc = 0.49, accuracy = 0.90, f1_score = 0.55
- -- Split #4, performance metrics mcc = 0.50, accuracy = 0.90, f1_score = 0.55
- -- Split #5, performance metrics mcc = 0.45, accuracy = 0.90, f1_score = 0.51
+ -- Split #1, performance metrics mcc = 0.53, accuracy = 0.91, f1_score = 0.58
+ -- Split #2, performance metrics mcc = 0.51, accuracy = 0.90, f1_score = 0.56
+ -- Split #3, performance metrics mcc = 0.50, accuracy = 0.90, f1_score = 0.56
+ -- Split #4, performance metrics mcc = 0.52, accuracy = 0.91, f1_score = 0.56
+ -- Split #5, performance metrics mcc = 0.53, accuracy = 0.91, f1_score = 0.58
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4942, STD=0.0416
- -- accuracy : Mean=0.9015, STD=0.0050
- -- f1_score : Mean=0.5470, STD=0.0404
+ -- mcc : Mean=0.5169, STD=0.0098
+ -- accuracy : Mean=0.9063, STD=0.0025
+ -- f1_score : Mean=0.5672, STD=0.0090
 --------------------------------------------------------------------------------------
 
 
@@ -38,16 +38,16 @@ Performance metrics of model model
 Parameters set : {'criterion': 'gini', 'max_depth': 10, 'min_samples_split': 10}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.51, accuracy = 0.91, f1_score = 0.56
- -- Split #2, performance metrics mcc = 0.55, accuracy = 0.91, f1_score = 0.60
- -- Split #3, performance metrics mcc = 0.54, accuracy = 0.91, f1_score = 0.59
- -- Split #4, performance metrics mcc = 0.48, accuracy = 0.90, f1_score = 0.54
- -- Split #5, performance metrics mcc = 0.54, accuracy = 0.91, f1_score = 0.58
+ -- Split #1, performance metrics mcc = 0.54, accuracy = 0.91, f1_score = 0.59
+ -- Split #2, performance metrics mcc = 0.51, accuracy = 0.91, f1_score = 0.56
+ -- Split #3, performance metrics mcc = 0.52, accuracy = 0.91, f1_score = 0.58
+ -- Split #4, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
+ -- Split #5, performance metrics mcc = 0.50, accuracy = 0.90, f1_score = 0.55
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.5247, STD=0.0244
- -- accuracy : Mean=0.9079, STD=0.0054
- -- f1_score : Mean=0.5740, STD=0.0211
+ -- mcc : Mean=0.5086, STD=0.0225
+ -- accuracy : Mean=0.9034, STD=0.0053
+ -- f1_score : Mean=0.5615, STD=0.0193
 --------------------------------------------------------------------------------------
 
 
@@ -55,16 +55,16 @@ Performance metrics of model model
 Parameters set : {'criterion': 'gini', 'max_depth': 20, 'min_samples_split': 2}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.43, accuracy = 0.88, f1_score = 0.49
- -- Split #2, performance metrics mcc = 0.45, accuracy = 0.89, f1_score = 0.52
- -- Split #3, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.53
- -- Split #4, performance metrics mcc = 0.45, accuracy = 0.89, f1_score = 0.51
- -- Split #5, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.52
+ -- Split #1, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.52
+ -- Split #2, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.53
+ -- Split #3, performance metrics mcc = 0.49, accuracy = 0.90, f1_score = 0.54
+ -- Split #4, performance metrics mcc = 0.48, accuracy = 0.89, f1_score = 0.54
+ -- Split #5, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4499, STD=0.0129
- -- accuracy : Mean=0.8869, STD=0.0026
- -- f1_score : Mean=0.5139, STD=0.0116
+ -- mcc : Mean=0.4712, STD=0.0099
+ -- accuracy : Mean=0.8909, STD=0.0031
+ -- f1_score : Mean=0.5329, STD=0.0082
 --------------------------------------------------------------------------------------
 
 
@@ -72,16 +72,16 @@ Performance metrics of model model
 Parameters set : {'criterion': 'gini', 'max_depth': 20, 'min_samples_split': 5}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
- -- Split #2, performance metrics mcc = 0.49, accuracy = 0.89, f1_score = 0.55
- -- Split #3, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
- -- Split #4, performance metrics mcc = 0.45, accuracy = 0.89, f1_score = 0.51
- -- Split #5, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.53
+ -- Split #1, performance metrics mcc = 0.44, accuracy = 0.89, f1_score = 0.51
+ -- Split #2, performance metrics mcc = 0.48, accuracy = 0.90, f1_score = 0.54
+ -- Split #3, performance metrics mcc = 0.42, accuracy = 0.88, f1_score = 0.49
+ -- Split #4, performance metrics mcc = 0.51, accuracy = 0.90, f1_score = 0.57
+ -- Split #5, performance metrics mcc = 0.46, accuracy = 0.90, f1_score = 0.51
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4671, STD=0.0142
- -- accuracy : Mean=0.8907, STD=0.0018
- -- f1_score : Mean=0.5286, STD=0.0141
+ -- mcc : Mean=0.4639, STD=0.0308
+ -- accuracy : Mean=0.8929, STD=0.0065
+ -- f1_score : Mean=0.5234, STD=0.0278
 --------------------------------------------------------------------------------------
 
 
@@ -89,16 +89,16 @@ Performance metrics of model model
 Parameters set : {'criterion': 'gini', 'max_depth': 20, 'min_samples_split': 10}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.42, accuracy = 0.89, f1_score = 0.49
- -- Split #2, performance metrics mcc = 0.44, accuracy = 0.89, f1_score = 0.50
- -- Split #3, performance metrics mcc = 0.48, accuracy = 0.90, f1_score = 0.53
- -- Split #4, performance metrics mcc = 0.49, accuracy = 0.90, f1_score = 0.55
+ -- Split #1, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
+ -- Split #2, performance metrics mcc = 0.44, accuracy = 0.89, f1_score = 0.51
+ -- Split #3, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.53
+ -- Split #4, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
  -- Split #5, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.52
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4601, STD=0.0246
- -- accuracy : Mean=0.8928, STD=0.0040
- -- f1_score : Mean=0.5198, STD=0.0229
+ -- mcc : Mean=0.4607, STD=0.0092
+ -- accuracy : Mean=0.8916, STD=0.0019
+ -- f1_score : Mean=0.5215, STD=0.0085
 --------------------------------------------------------------------------------------
 
 
@@ -106,16 +106,16 @@ Performance metrics of model model
 Parameters set : {'criterion': 'entropy', 'max_depth': 10, 'min_samples_split': 2}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.53, accuracy = 0.91, f1_score = 0.58
- -- Split #2, performance metrics mcc = 0.51, accuracy = 0.91, f1_score = 0.55
- -- Split #3, performance metrics mcc = 0.50, accuracy = 0.90, f1_score = 0.56
- -- Split #4, performance metrics mcc = 0.52, accuracy = 0.91, f1_score = 0.57
- -- Split #5, performance metrics mcc = 0.49, accuracy = 0.91, f1_score = 0.53
+ -- Split #1, performance metrics mcc = 0.54, accuracy = 0.91, f1_score = 0.59
+ -- Split #2, performance metrics mcc = 0.53, accuracy = 0.91, f1_score = 0.58
+ -- Split #3, performance metrics mcc = 0.52, accuracy = 0.90, f1_score = 0.57
+ -- Split #4, performance metrics mcc = 0.53, accuracy = 0.91, f1_score = 0.58
+ -- Split #5, performance metrics mcc = 0.54, accuracy = 0.91, f1_score = 0.59
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.5099, STD=0.0147
- -- accuracy : Mean=0.9057, STD=0.0029
- -- f1_score : Mean=0.5595, STD=0.0157
+ -- mcc : Mean=0.5312, STD=0.0095
+ -- accuracy : Mean=0.9070, STD=0.0027
+ -- f1_score : Mean=0.5827, STD=0.0075
 --------------------------------------------------------------------------------------
 
 
@@ -123,16 +123,16 @@ Performance metrics of model model
 Parameters set : {'criterion': 'entropy', 'max_depth': 10, 'min_samples_split': 5}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.49, accuracy = 0.90, f1_score = 0.54
- -- Split #2, performance metrics mcc = 0.44, accuracy = 0.90, f1_score = 0.50
- -- Split #3, performance metrics mcc = 0.52, accuracy = 0.91, f1_score = 0.57
- -- Split #4, performance metrics mcc = 0.53, accuracy = 0.91, f1_score = 0.58
- -- Split #5, performance metrics mcc = 0.55, accuracy = 0.91, f1_score = 0.60
+ -- Split #1, performance metrics mcc = 0.52, accuracy = 0.91, f1_score = 0.56
+ -- Split #2, performance metrics mcc = 0.54, accuracy = 0.91, f1_score = 0.59
+ -- Split #3, performance metrics mcc = 0.50, accuracy = 0.90, f1_score = 0.55
+ -- Split #4, performance metrics mcc = 0.48, accuracy = 0.90, f1_score = 0.54
+ -- Split #5, performance metrics mcc = 0.51, accuracy = 0.91, f1_score = 0.56
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.5047, STD=0.0362
- -- accuracy : Mean=0.9046, STD=0.0047
- -- f1_score : Mean=0.5554, STD=0.0357
+ -- mcc : Mean=0.5108, STD=0.0195
+ -- accuracy : Mean=0.9059, STD=0.0040
+ -- f1_score : Mean=0.5601, STD=0.0182
 --------------------------------------------------------------------------------------
 
 
@@ -140,16 +140,16 @@ Performance metrics of model model
 Parameters set : {'criterion': 'entropy', 'max_depth': 10, 'min_samples_split': 10}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.51, accuracy = 0.90, f1_score = 0.56
+ -- Split #1, performance metrics mcc = 0.49, accuracy = 0.90, f1_score = 0.54
  -- Split #2, performance metrics mcc = 0.53, accuracy = 0.91, f1_score = 0.58
- -- Split #3, performance metrics mcc = 0.51, accuracy = 0.91, f1_score = 0.56
- -- Split #4, performance metrics mcc = 0.49, accuracy = 0.90, f1_score = 0.54
- -- Split #5, performance metrics mcc = 0.47, accuracy = 0.90, f1_score = 0.52
+ -- Split #3, performance metrics mcc = 0.52, accuracy = 0.91, f1_score = 0.56
+ -- Split #4, performance metrics mcc = 0.53, accuracy = 0.91, f1_score = 0.58
+ -- Split #5, performance metrics mcc = 0.49, accuracy = 0.90, f1_score = 0.54
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.5026, STD=0.0205
- -- accuracy : Mean=0.9043, STD=0.0024
- -- f1_score : Mean=0.5531, STD=0.0215
+ -- mcc : Mean=0.5121, STD=0.0172
+ -- accuracy : Mean=0.9063, STD=0.0030
+ -- f1_score : Mean=0.5614, STD=0.0163
 --------------------------------------------------------------------------------------
 
 
@@ -157,16 +157,16 @@ Performance metrics of model model
 Parameters set : {'criterion': 'entropy', 'max_depth': 20, 'min_samples_split': 2}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.43, accuracy = 0.88, f1_score = 0.50
- -- Split #2, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.52
- -- Split #3, performance metrics mcc = 0.45, accuracy = 0.89, f1_score = 0.51
- -- Split #4, performance metrics mcc = 0.45, accuracy = 0.89, f1_score = 0.52
- -- Split #5, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.52
+ -- Split #1, performance metrics mcc = 0.49, accuracy = 0.90, f1_score = 0.55
+ -- Split #2, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.53
+ -- Split #3, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
+ -- Split #4, performance metrics mcc = 0.49, accuracy = 0.90, f1_score = 0.55
+ -- Split #5, performance metrics mcc = 0.49, accuracy = 0.89, f1_score = 0.55
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4502, STD=0.0120
- -- accuracy : Mean=0.8861, STD=0.0043
- -- f1_score : Mean=0.5145, STD=0.0097
+ -- mcc : Mean=0.4799, STD=0.0129
+ -- accuracy : Mean=0.8934, STD=0.0037
+ -- f1_score : Mean=0.5400, STD=0.0111
 --------------------------------------------------------------------------------------
 
 
@@ -174,16 +174,16 @@ Performance metrics of model model
 Parameters set : {'criterion': 'entropy', 'max_depth': 20, 'min_samples_split': 5}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
- -- Split #2, performance metrics mcc = 0.43, accuracy = 0.89, f1_score = 0.49
- -- Split #3, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
- -- Split #4, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
- -- Split #5, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
+ -- Split #1, performance metrics mcc = 0.42, accuracy = 0.88, f1_score = 0.49
+ -- Split #2, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.52
+ -- Split #3, performance metrics mcc = 0.43, accuracy = 0.89, f1_score = 0.49
+ -- Split #4, performance metrics mcc = 0.49, accuracy = 0.90, f1_score = 0.55
+ -- Split #5, performance metrics mcc = 0.49, accuracy = 0.89, f1_score = 0.55
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4605, STD=0.0151
- -- accuracy : Mean=0.8913, STD=0.0029
- -- f1_score : Mean=0.5216, STD=0.0136
+ -- mcc : Mean=0.4573, STD=0.0298
+ -- accuracy : Mean=0.8911, STD=0.0060
+ -- f1_score : Mean=0.5182, STD=0.0266
 --------------------------------------------------------------------------------------
 
 
@@ -191,20 +191,20 @@ Performance metrics of model model
 Parameters set : {'criterion': 'entropy', 'max_depth': 20, 'min_samples_split': 10}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.52
- -- Split #2, performance metrics mcc = 0.48, accuracy = 0.89, f1_score = 0.53
- -- Split #3, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
- -- Split #4, performance metrics mcc = 0.48, accuracy = 0.90, f1_score = 0.54
- -- Split #5, performance metrics mcc = 0.45, accuracy = 0.88, f1_score = 0.51
+ -- Split #1, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
+ -- Split #2, performance metrics mcc = 0.45, accuracy = 0.89, f1_score = 0.51
+ -- Split #3, performance metrics mcc = 0.45, accuracy = 0.89, f1_score = 0.51
+ -- Split #4, performance metrics mcc = 0.45, accuracy = 0.88, f1_score = 0.51
+ -- Split #5, performance metrics mcc = 0.43, accuracy = 0.88, f1_score = 0.49
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4654, STD=0.0116
- -- accuracy : Mean=0.8925, STD=0.0041
- -- f1_score : Mean=0.5256, STD=0.0095
+ -- mcc : Mean=0.4486, STD=0.0138
+ -- accuracy : Mean=0.8881, STD=0.0037
+ -- f1_score : Mean=0.5115, STD=0.0124
 --------------------------------------------------------------------------------------
 
+Best hyper-parameters set:
+{'criterion': 'entropy', 'max_depth': 10, 'min_samples_split': 2}
 
---------------------------------------------------------------------------------------
-Parameters set : {'criterion': 'log_loss', 'max_depth': 10, 'min_samples_split': 2}
---------------------------------------------------------------------------------------
-Cross valiation for model
+Test results :
+{'mcc': 0.5301985496913743, 'accuracy': 0.9061152272475949, 'f1_score': 0.5807407407407408}

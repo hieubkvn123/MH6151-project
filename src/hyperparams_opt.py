@@ -13,7 +13,7 @@ models = {
     'decision_tree' : {
         'model_class' : DecisionTreeClassifier,
         'hyperparams' : {
-            'criterion' : ['gini', 'entropy', 'log_loss'],
+            'criterion' : ['gini', 'entropy'],
             'max_depth' : [10, 20],
             'min_samples_split' : [2, 5, 10]
         }
