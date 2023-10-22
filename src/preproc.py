@@ -1,10 +1,11 @@
 import os
 import pickle
+import pathlib
 from sklearn.preprocessing import LabelEncoder
 
 LABEL_ENC_FOLDER = './encoders'
 if(not os.path.exists(LABEL_ENC_FOLDER)):
-    os.mkdir(LABEL_ENC_FOLDER)
+    pathlib.Path(LABEL_ENC_FOLDER).mkdir(parents=True, exist_ok=True)
 
 def preproc_education(x):
     if(x == 'unknown') : return 0

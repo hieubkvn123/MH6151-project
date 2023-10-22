@@ -2,11 +2,7 @@ import numpy as np
 from itertools import product
 from sklearn.model_selection import StratifiedShuffleSplit
 
-def k_fold_validation(data, models, metrics, feat_cols, target_col, k=5):
-    # Extract features + targets
-    features = data[feat_cols]
-    targets = data[target_col]
-    
+def k_fold_validation(features, targets, models, metrics, k=5):
     # Initialize splitter
     splitter = StratifiedShuffleSplit(n_splits=k)
     summary = { key : { mkey : [] for mkey in metrics.keys() } for key in models.keys() }
@@ -55,8 +51,9 @@ def k_fold_validation(data, models, metrics, feat_cols, target_col, k=5):
 
     return summarized_metrics            
             
-def hyperparams_tuning(df, model_class, hyperparams, metrics, feat_cols, target_col, target_metric=None):
+def hyperparams_tuning(X, y, model_class, hyperparams, metrics, target_metric=None, model_name=None):
     # Check the target metric
+    model_name = model_name if model_name is not None else 'model'
     if(target_metric is None):
         target_metric = metrics.keys()[0]
 
@@ -77,12 +74,12 @@ def hyperparams_tuning(df, model_class, hyperparams, metrics, feat_cols, target_
 
         print('\n\n--------------------------------------------------------------------------------------')
         print(f'Parameters set : {param_dict}')
-        summarized_metrics = k_fold_validation(df, {'model' : model}, metrics, feat_cols, target_col)
+        summarized_metrics = k_fold_validation(X, y, {model_name : model}, metrics)
         results[param] = summarized_metrics
 
         # Reset best metric and best param
-        if(best_metric < summarized_metrics['model'][target_metric]):
-            best_metric = summarized_metrics['model'][target_metric]
+        if(best_metric < summarized_metrics[model_name][target_metric]):
+            best_metric = summarized_metrics[model_name][target_metric]
             best_param = param_dict
 
     return results, best_param
