@@ -4,16 +4,16 @@
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 25, 'learning_rate': 0.1}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.53
- -- Split #2, performance metrics mcc = 0.41, accuracy = 0.87, f1_score = 0.48
- -- Split #3, performance metrics mcc = 0.43, accuracy = 0.88, f1_score = 0.50
- -- Split #4, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.52
- -- Split #5, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.52
+ -- Split #1, performance metrics mcc = 0.22, accuracy = 0.83, f1_score = 0.32
+ -- Split #2, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #3, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #4, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
+ -- Split #5, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4433, STD=0.0222
- -- accuracy : Mean=0.8843, STD=0.0065
- -- f1_score : Mean=0.5087, STD=0.0185
+ -- mcc : Mean=0.2390, STD=0.0106
+ -- accuracy : Mean=0.8378, STD=0.0040
+ -- f1_score : Mean=0.3308, STD=0.0086
 --------------------------------------------------------------------------------------
 
 
@@ -21,16 +21,16 @@ Performance metrics of model model
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 25, 'learning_rate': 0.2}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.45, accuracy = 0.89, f1_score = 0.52
- -- Split #2, performance metrics mcc = 0.45, accuracy = 0.88, f1_score = 0.51
- -- Split #3, performance metrics mcc = 0.40, accuracy = 0.88, f1_score = 0.47
- -- Split #4, performance metrics mcc = 0.43, accuracy = 0.88, f1_score = 0.50
- -- Split #5, performance metrics mcc = 0.43, accuracy = 0.88, f1_score = 0.50
+ -- Split #1, performance metrics mcc = 0.28, accuracy = 0.85, f1_score = 0.36
+ -- Split #2, performance metrics mcc = 0.25, accuracy = 0.83, f1_score = 0.34
+ -- Split #3, performance metrics mcc = 0.26, accuracy = 0.84, f1_score = 0.35
+ -- Split #4, performance metrics mcc = 0.21, accuracy = 0.83, f1_score = 0.31
+ -- Split #5, performance metrics mcc = 0.22, accuracy = 0.84, f1_score = 0.32
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4323, STD=0.0179
- -- accuracy : Mean=0.8819, STD=0.0044
- -- f1_score : Mean=0.4991, STD=0.0155
+ -- mcc : Mean=0.2440, STD=0.0228
+ -- accuracy : Mean=0.8377, STD=0.0053
+ -- f1_score : Mean=0.3357, STD=0.0202
 --------------------------------------------------------------------------------------
 
 
@@ -38,16 +38,16 @@ Performance metrics of model model
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 25, 'learning_rate': 0.5}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.42, accuracy = 0.88, f1_score = 0.49
- -- Split #2, performance metrics mcc = 0.45, accuracy = 0.88, f1_score = 0.52
- -- Split #3, performance metrics mcc = 0.42, accuracy = 0.88, f1_score = 0.48
- -- Split #4, performance metrics mcc = 0.46, accuracy = 0.88, f1_score = 0.52
- -- Split #5, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.52
+ -- Split #1, performance metrics mcc = 0.28, accuracy = 0.84, f1_score = 0.37
+ -- Split #2, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
+ -- Split #3, performance metrics mcc = 0.28, accuracy = 0.85, f1_score = 0.37
+ -- Split #4, performance metrics mcc = 0.21, accuracy = 0.83, f1_score = 0.31
+ -- Split #5, performance metrics mcc = 0.27, accuracy = 0.85, f1_score = 0.36
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4422, STD=0.0201
- -- accuracy : Mean=0.8834, STD=0.0048
- -- f1_score : Mean=0.5080, STD=0.0177
+ -- mcc : Mean=0.2558, STD=0.0273
+ -- accuracy : Mean=0.8410, STD=0.0061
+ -- f1_score : Mean=0.3457, STD=0.0240
 --------------------------------------------------------------------------------------
 
 
@@ -55,16 +55,16 @@ Performance metrics of model model
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 50, 'learning_rate': 0.1}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.45, accuracy = 0.89, f1_score = 0.52
- -- Split #2, performance metrics mcc = 0.45, accuracy = 0.89, f1_score = 0.51
- -- Split #3, performance metrics mcc = 0.44, accuracy = 0.89, f1_score = 0.51
- -- Split #4, performance metrics mcc = 0.43, accuracy = 0.88, f1_score = 0.49
- -- Split #5, performance metrics mcc = 0.42, accuracy = 0.88, f1_score = 0.49
+ -- Split #1, performance metrics mcc = 0.25, accuracy = 0.83, f1_score = 0.34
+ -- Split #2, performance metrics mcc = 0.26, accuracy = 0.84, f1_score = 0.35
+ -- Split #3, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #4, performance metrics mcc = 0.22, accuracy = 0.83, f1_score = 0.31
+ -- Split #5, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4387, STD=0.0112
- -- accuracy : Mean=0.8856, STD=0.0029
- -- f1_score : Mean=0.5033, STD=0.0097
+ -- mcc : Mean=0.2409, STD=0.0133
+ -- accuracy : Mean=0.8382, STD=0.0038
+ -- f1_score : Mean=0.3324, STD=0.0119
 --------------------------------------------------------------------------------------
 
 
@@ -72,16 +72,16 @@ Performance metrics of model model
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 50, 'learning_rate': 0.2}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
- -- Split #2, performance metrics mcc = 0.43, accuracy = 0.88, f1_score = 0.50
- -- Split #3, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.53
- -- Split #4, performance metrics mcc = 0.48, accuracy = 0.89, f1_score = 0.54
- -- Split #5, performance metrics mcc = 0.45, accuracy = 0.89, f1_score = 0.52
+ -- Split #1, performance metrics mcc = 0.27, accuracy = 0.84, f1_score = 0.36
+ -- Split #2, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.35
+ -- Split #3, performance metrics mcc = 0.26, accuracy = 0.85, f1_score = 0.35
+ -- Split #4, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #5, performance metrics mcc = 0.22, accuracy = 0.83, f1_score = 0.31
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4598, STD=0.0151
- -- accuracy : Mean=0.8888, STD=0.0036
- -- f1_score : Mean=0.5227, STD=0.0133
+ -- mcc : Mean=0.2505, STD=0.0183
+ -- accuracy : Mean=0.8404, STD=0.0041
+ -- f1_score : Mean=0.3407, STD=0.0163
 --------------------------------------------------------------------------------------
 
 
@@ -89,16 +89,16 @@ Performance metrics of model model
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 50, 'learning_rate': 0.5}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
- -- Split #2, performance metrics mcc = 0.44, accuracy = 0.88, f1_score = 0.50
- -- Split #3, performance metrics mcc = 0.44, accuracy = 0.89, f1_score = 0.51
- -- Split #4, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
- -- Split #5, performance metrics mcc = 0.48, accuracy = 0.89, f1_score = 0.54
+ -- Split #1, performance metrics mcc = 0.27, accuracy = 0.84, f1_score = 0.36
+ -- Split #2, performance metrics mcc = 0.23, accuracy = 0.83, f1_score = 0.32
+ -- Split #3, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #4, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
+ -- Split #5, performance metrics mcc = 0.26, accuracy = 0.84, f1_score = 0.35
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4599, STD=0.0170
- -- accuracy : Mean=0.8880, STD=0.0035
- -- f1_score : Mean=0.5232, STD=0.0151
+ -- mcc : Mean=0.2492, STD=0.0152
+ -- accuracy : Mean=0.8388, STD=0.0033
+ -- f1_score : Mean=0.3403, STD=0.0134
 --------------------------------------------------------------------------------------
 
 
@@ -106,16 +106,16 @@ Performance metrics of model model
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 75, 'learning_rate': 0.1}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.51, accuracy = 0.89, f1_score = 0.57
- -- Split #2, performance metrics mcc = 0.45, accuracy = 0.89, f1_score = 0.51
- -- Split #3, performance metrics mcc = 0.42, accuracy = 0.88, f1_score = 0.48
- -- Split #4, performance metrics mcc = 0.43, accuracy = 0.88, f1_score = 0.49
- -- Split #5, performance metrics mcc = 0.49, accuracy = 0.90, f1_score = 0.55
+ -- Split #1, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
+ -- Split #2, performance metrics mcc = 0.23, accuracy = 0.84, f1_score = 0.33
+ -- Split #3, performance metrics mcc = 0.26, accuracy = 0.84, f1_score = 0.35
+ -- Split #4, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
+ -- Split #5, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4583, STD=0.0362
- -- accuracy : Mean=0.8886, STD=0.0061
- -- f1_score : Mean=0.5212, STD=0.0328
+ -- mcc : Mean=0.2407, STD=0.0090
+ -- accuracy : Mean=0.8363, STD=0.0007
+ -- f1_score : Mean=0.3332, STD=0.0088
 --------------------------------------------------------------------------------------
 
 
@@ -123,16 +123,16 @@ Performance metrics of model model
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 75, 'learning_rate': 0.2}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.48, accuracy = 0.89, f1_score = 0.55
- -- Split #2, performance metrics mcc = 0.43, accuracy = 0.88, f1_score = 0.50
- -- Split #3, performance metrics mcc = 0.41, accuracy = 0.88, f1_score = 0.48
- -- Split #4, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.52
- -- Split #5, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.53
+ -- Split #1, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #2, performance metrics mcc = 0.24, accuracy = 0.83, f1_score = 0.33
+ -- Split #3, performance metrics mcc = 0.23, accuracy = 0.84, f1_score = 0.32
+ -- Split #4, performance metrics mcc = 0.26, accuracy = 0.84, f1_score = 0.35
+ -- Split #5, performance metrics mcc = 0.23, accuracy = 0.83, f1_score = 0.32
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4491, STD=0.0260
- -- accuracy : Mean=0.8852, STD=0.0054
- -- f1_score : Mean=0.5141, STD=0.0230
+ -- mcc : Mean=0.2399, STD=0.0116
+ -- accuracy : Mean=0.8375, STD=0.0025
+ -- f1_score : Mean=0.3318, STD=0.0107
 --------------------------------------------------------------------------------------
 
 
@@ -140,16 +140,16 @@ Performance metrics of model model
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 75, 'learning_rate': 0.5}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.45, accuracy = 0.89, f1_score = 0.51
- -- Split #2, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
- -- Split #3, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
- -- Split #4, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
- -- Split #5, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
+ -- Split #1, performance metrics mcc = 0.23, accuracy = 0.84, f1_score = 0.33
+ -- Split #2, performance metrics mcc = 0.27, accuracy = 0.84, f1_score = 0.36
+ -- Split #3, performance metrics mcc = 0.29, accuracy = 0.84, f1_score = 0.37
+ -- Split #4, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #5, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4633, STD=0.0067
- -- accuracy : Mean=0.8882, STD=0.0010
- -- f1_score : Mean=0.5265, STD=0.0065
+ -- mcc : Mean=0.2567, STD=0.0195
+ -- accuracy : Mean=0.8405, STD=0.0026
+ -- f1_score : Mean=0.3467, STD=0.0184
 --------------------------------------------------------------------------------------
 
 
@@ -157,16 +157,16 @@ Performance metrics of model model
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 100, 'learning_rate': 0.1}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.45, accuracy = 0.89, f1_score = 0.51
- -- Split #2, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
- -- Split #3, performance metrics mcc = 0.41, accuracy = 0.88, f1_score = 0.48
- -- Split #4, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
- -- Split #5, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.52
+ -- Split #1, performance metrics mcc = 0.22, accuracy = 0.83, f1_score = 0.32
+ -- Split #2, performance metrics mcc = 0.26, accuracy = 0.84, f1_score = 0.35
+ -- Split #3, performance metrics mcc = 0.26, accuracy = 0.84, f1_score = 0.35
+ -- Split #4, performance metrics mcc = 0.24, accuracy = 0.83, f1_score = 0.34
+ -- Split #5, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4511, STD=0.0236
- -- accuracy : Mean=0.8853, STD=0.0046
- -- f1_score : Mean=0.5160, STD=0.0210
+ -- mcc : Mean=0.2457, STD=0.0152
+ -- accuracy : Mean=0.8385, STD=0.0053
+ -- f1_score : Mean=0.3370, STD=0.0129
 --------------------------------------------------------------------------------------
 
 
@@ -174,16 +174,16 @@ Performance metrics of model model
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 100, 'learning_rate': 0.2}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.45, accuracy = 0.89, f1_score = 0.51
- -- Split #2, performance metrics mcc = 0.44, accuracy = 0.88, f1_score = 0.51
- -- Split #3, performance metrics mcc = 0.44, accuracy = 0.88, f1_score = 0.51
- -- Split #4, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.52
- -- Split #5, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
+ -- Split #1, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #2, performance metrics mcc = 0.28, accuracy = 0.84, f1_score = 0.36
+ -- Split #3, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
+ -- Split #4, performance metrics mcc = 0.23, accuracy = 0.84, f1_score = 0.32
+ -- Split #5, performance metrics mcc = 0.30, accuracy = 0.85, f1_score = 0.38
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4525, STD=0.0104
- -- accuracy : Mean=0.8878, STD=0.0032
- -- f1_score : Mean=0.5156, STD=0.0101
+ -- mcc : Mean=0.2564, STD=0.0247
+ -- accuracy : Mean=0.8417, STD=0.0056
+ -- f1_score : Mean=0.3460, STD=0.0218
 --------------------------------------------------------------------------------------
 
 
@@ -191,16 +191,16 @@ Performance metrics of model model
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 100, 'learning_rate': 0.5}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.48, accuracy = 0.89, f1_score = 0.54
- -- Split #2, performance metrics mcc = 0.44, accuracy = 0.88, f1_score = 0.51
- -- Split #3, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.54
- -- Split #4, performance metrics mcc = 0.43, accuracy = 0.88, f1_score = 0.50
- -- Split #5, performance metrics mcc = 0.42, accuracy = 0.88, f1_score = 0.49
+ -- Split #1, performance metrics mcc = 0.26, accuracy = 0.84, f1_score = 0.35
+ -- Split #2, performance metrics mcc = 0.24, accuracy = 0.83, f1_score = 0.34
+ -- Split #3, performance metrics mcc = 0.29, accuracy = 0.84, f1_score = 0.38
+ -- Split #4, performance metrics mcc = 0.28, accuracy = 0.84, f1_score = 0.37
+ -- Split #5, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4498, STD=0.0223
- -- accuracy : Mean=0.8847, STD=0.0045
- -- f1_score : Mean=0.5150, STD=0.0198
+ -- mcc : Mean=0.2612, STD=0.0181
+ -- accuracy : Mean=0.8389, STD=0.0030
+ -- f1_score : Mean=0.3518, STD=0.0171
 --------------------------------------------------------------------------------------
 
 
@@ -208,16 +208,16 @@ Performance metrics of model model
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 125, 'learning_rate': 0.1}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.48, accuracy = 0.89, f1_score = 0.54
- -- Split #2, performance metrics mcc = 0.43, accuracy = 0.88, f1_score = 0.50
- -- Split #3, performance metrics mcc = 0.44, accuracy = 0.89, f1_score = 0.51
- -- Split #4, performance metrics mcc = 0.45, accuracy = 0.89, f1_score = 0.52
- -- Split #5, performance metrics mcc = 0.44, accuracy = 0.88, f1_score = 0.51
+ -- Split #1, performance metrics mcc = 0.23, accuracy = 0.83, f1_score = 0.33
+ -- Split #2, performance metrics mcc = 0.24, accuracy = 0.83, f1_score = 0.33
+ -- Split #3, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #4, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #5, performance metrics mcc = 0.28, accuracy = 0.85, f1_score = 0.37
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4508, STD=0.0162
- -- accuracy : Mean=0.8863, STD=0.0028
- -- f1_score : Mean=0.5151, STD=0.0147
+ -- mcc : Mean=0.2499, STD=0.0173
+ -- accuracy : Mean=0.8395, STD=0.0067
+ -- f1_score : Mean=0.3406, STD=0.0141
 --------------------------------------------------------------------------------------
 
 
@@ -225,16 +225,16 @@ Performance metrics of model model
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 125, 'learning_rate': 0.2}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.52
- -- Split #2, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.52
- -- Split #3, performance metrics mcc = 0.43, accuracy = 0.88, f1_score = 0.50
- -- Split #4, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.53
- -- Split #5, performance metrics mcc = 0.48, accuracy = 0.89, f1_score = 0.54
+ -- Split #1, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
+ -- Split #2, performance metrics mcc = 0.22, accuracy = 0.83, f1_score = 0.31
+ -- Split #3, performance metrics mcc = 0.22, accuracy = 0.84, f1_score = 0.32
+ -- Split #4, performance metrics mcc = 0.27, accuracy = 0.85, f1_score = 0.36
+ -- Split #5, performance metrics mcc = 0.21, accuracy = 0.83, f1_score = 0.31
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4593, STD=0.0142
- -- accuracy : Mean=0.8880, STD=0.0037
- -- f1_score : Mean=0.5227, STD=0.0122
+ -- mcc : Mean=0.2324, STD=0.0204
+ -- accuracy : Mean=0.8362, STD=0.0058
+ -- f1_score : Mean=0.3251, STD=0.0174
 --------------------------------------------------------------------------------------
 
 
@@ -242,22 +242,22 @@ Performance metrics of model model
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 125, 'learning_rate': 0.5}
 --------------------------------------------------------------------------------------
 Cross valiation for model
- -- Split #1, performance metrics mcc = 0.47, accuracy = 0.89, f1_score = 0.53
- -- Split #2, performance metrics mcc = 0.46, accuracy = 0.88, f1_score = 0.52
- -- Split #3, performance metrics mcc = 0.45, accuracy = 0.89, f1_score = 0.52
- -- Split #4, performance metrics mcc = 0.46, accuracy = 0.89, f1_score = 0.52
- -- Split #5, performance metrics mcc = 0.44, accuracy = 0.88, f1_score = 0.51
+ -- Split #1, performance metrics mcc = 0.25, accuracy = 0.83, f1_score = 0.34
+ -- Split #2, performance metrics mcc = 0.26, accuracy = 0.84, f1_score = 0.35
+ -- Split #3, performance metrics mcc = 0.28, accuracy = 0.84, f1_score = 0.36
+ -- Split #4, performance metrics mcc = 0.24, accuracy = 0.83, f1_score = 0.33
+ -- Split #5, performance metrics mcc = 0.21, accuracy = 0.83, f1_score = 0.31
 ======================================================================================
 Performance metrics of model model
- -- mcc : Mean=0.4554, STD=0.0084
- -- accuracy : Mean=0.8861, STD=0.0028
- -- f1_score : Mean=0.5198, STD=0.0070
+ -- mcc : Mean=0.2466, STD=0.0216
+ -- accuracy : Mean=0.8356, STD=0.0040
+ -- f1_score : Mean=0.3393, STD=0.0193
 --------------------------------------------------------------------------------------
 
 Best hyper-parameters set:
-{'estimator': DecisionTreeClassifier(), 'n_estimators': 75, 'learning_rate': 0.5}
+{'estimator': DecisionTreeClassifier(), 'n_estimators': 100, 'learning_rate': 0.5}
 
 Test results :
-{'mcc': 0.47292767330958885, 'accuracy': 0.8860997456596262, 'f1_score': 0.5377019748653501}
+{'mcc': 0.24277178272028752, 'accuracy': 0.8336835121088134, 'f1_score': 0.33744493392070485}
 
 Checkpoint saved to ./checkpoints\adaboost.pkl
