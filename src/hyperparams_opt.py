@@ -1,5 +1,5 @@
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier, AdaBoostClassifier
 from sklearn.metrics import matthews_corrcoef, accuracy_score, f1_score
 
 models = {
@@ -24,9 +24,18 @@ models = {
         'model_class' : GradientBoostingClassifier,
         'hyperparams' : {
             'learning_rate' : [0.1, 0.2, 0.5],
-            'n_estimators' : [50, 100, 150]
+            'n_estimators' : [25 * i for i in range(1, 6)],
         },
-        'ckpt_filename' : 'gradient_boost_tree'
+        'ckpt_filename' : 'gradient_boost_tree.pkl'
+    },
+    'ada_boost' : {
+        'model_class' : AdaBoostClassifier,
+        'hyperparams' : {
+            'estimator' : [DecisionTreeClassifier()],
+            'n_estimators' : [25 * i for i in range(1, 6)],
+            'learning_rate' : [0.1, 0.2, 0.5]
+        },
+        'ckpt_filename' : 'adaboost.pkl'
     }
 }
 

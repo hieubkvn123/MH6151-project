@@ -15,3 +15,5 @@ python modelling_random_forest.py --output_file outputs/random_forest.txt
 
 # References
 - Random oversampling and undersampling for imbalanced classification : [Link](https://machinelearningmastery.com/random-oversampling-and-undersampling-for-imbalanced-classification/).
+- AdaBoost Algorithm: Understand, Implement and Master AdaBoost : [Link](https://www.analyticsvidhya.com/blog/2021/09/adaboost-algorithm-a-complete-guide-for-beginners/).
+- AdaBoost clearly explained (Josh Starmer) : [Link (Youtube)](https://www.youtube.com/watch?v=LsK-xG1cLYA).
