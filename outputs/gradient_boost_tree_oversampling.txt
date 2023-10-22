@@ -1,0 +1,263 @@
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'learning_rate': 0.1, 'n_estimators': 25}
+--------------------------------------------------------------------------------------
+Cross valiation for gradient_boost_tree
+ -- Split #1, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.66
+ -- Split #2, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.64
+ -- Split #3, performance metrics mcc = 0.52, accuracy = 0.80, f1_score = 0.65
+ -- Split #4, performance metrics mcc = 0.53, accuracy = 0.80, f1_score = 0.65
+ -- Split #5, performance metrics mcc = 0.50, accuracy = 0.79, f1_score = 0.63
+======================================================================================
+Performance metrics of model gradient_boost_tree
+ -- mcc : Mean=0.5203, STD=0.0146
+ -- accuracy : Mean=0.7961, STD=0.0059
+ -- f1_score : Mean=0.6444, STD=0.0103
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'learning_rate': 0.1, 'n_estimators': 50}
+--------------------------------------------------------------------------------------
+Cross valiation for gradient_boost_tree
+ -- Split #1, performance metrics mcc = 0.53, accuracy = 0.80, f1_score = 0.66
+ -- Split #2, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.66
+ -- Split #3, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+ -- Split #4, performance metrics mcc = 0.54, accuracy = 0.81, f1_score = 0.67
+ -- Split #5, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+======================================================================================
+Performance metrics of model gradient_boost_tree
+ -- mcc : Mean=0.5392, STD=0.0065
+ -- accuracy : Mean=0.8031, STD=0.0025
+ -- f1_score : Mean=0.6664, STD=0.0067
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'learning_rate': 0.1, 'n_estimators': 75}
+--------------------------------------------------------------------------------------
+Cross valiation for gradient_boost_tree
+ -- Split #1, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.66
+ -- Split #2, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.67
+ -- Split #3, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.69
+ -- Split #4, performance metrics mcc = 0.52, accuracy = 0.79, f1_score = 0.65
+ -- Split #5, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+======================================================================================
+Performance metrics of model gradient_boost_tree
+ -- mcc : Mean=0.5404, STD=0.0153
+ -- accuracy : Mean=0.8033, STD=0.0061
+ -- f1_score : Mean=0.6696, STD=0.0129
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'learning_rate': 0.1, 'n_estimators': 100}
+--------------------------------------------------------------------------------------
+Cross valiation for gradient_boost_tree
+ -- Split #1, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.69
+ -- Split #2, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #3, performance metrics mcc = 0.54, accuracy = 0.81, f1_score = 0.67
+ -- Split #4, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.65
+ -- Split #5, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+======================================================================================
+Performance metrics of model gradient_boost_tree
+ -- mcc : Mean=0.5451, STD=0.0188
+ -- accuracy : Mean=0.8054, STD=0.0076
+ -- f1_score : Mean=0.6724, STD=0.0145
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'learning_rate': 0.1, 'n_estimators': 125}
+--------------------------------------------------------------------------------------
+Cross valiation for gradient_boost_tree
+ -- Split #1, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #2, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+ -- Split #3, performance metrics mcc = 0.52, accuracy = 0.80, f1_score = 0.65
+ -- Split #4, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #5, performance metrics mcc = 0.54, accuracy = 0.81, f1_score = 0.67
+======================================================================================
+Performance metrics of model gradient_boost_tree
+ -- mcc : Mean=0.5470, STD=0.0144
+ -- accuracy : Mean=0.8063, STD=0.0058
+ -- f1_score : Mean=0.6721, STD=0.0111
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'learning_rate': 0.2, 'n_estimators': 25}
+--------------------------------------------------------------------------------------
+Cross valiation for gradient_boost_tree
+ -- Split #1, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.66
+ -- Split #2, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+ -- Split #3, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.67
+ -- Split #4, performance metrics mcc = 0.52, accuracy = 0.79, f1_score = 0.64
+ -- Split #5, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.67
+======================================================================================
+Performance metrics of model gradient_boost_tree
+ -- mcc : Mean=0.5384, STD=0.0120
+ -- accuracy : Mean=0.8030, STD=0.0047
+ -- f1_score : Mean=0.6634, STD=0.0110
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'learning_rate': 0.2, 'n_estimators': 50}
+--------------------------------------------------------------------------------------
+Cross valiation for gradient_boost_tree
+ -- Split #1, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.67
+ -- Split #2, performance metrics mcc = 0.52, accuracy = 0.80, f1_score = 0.65
+ -- Split #3, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #4, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+ -- Split #5, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+======================================================================================
+Performance metrics of model gradient_boost_tree
+ -- mcc : Mean=0.5468, STD=0.0144
+ -- accuracy : Mean=0.8063, STD=0.0058
+ -- f1_score : Mean=0.6713, STD=0.0113
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'learning_rate': 0.2, 'n_estimators': 75}
+--------------------------------------------------------------------------------------
+Cross valiation for gradient_boost_tree
+ -- Split #1, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.67
+ -- Split #2, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.68
+ -- Split #3, performance metrics mcc = 0.59, accuracy = 0.82, f1_score = 0.71
+ -- Split #4, performance metrics mcc = 0.54, accuracy = 0.81, f1_score = 0.67
+ -- Split #5, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+======================================================================================
+Performance metrics of model gradient_boost_tree
+ -- mcc : Mean=0.5571, STD=0.0176
+ -- accuracy : Mean=0.8105, STD=0.0071
+ -- f1_score : Mean=0.6794, STD=0.0145
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'learning_rate': 0.2, 'n_estimators': 100}
+--------------------------------------------------------------------------------------
+Cross valiation for gradient_boost_tree
+ -- Split #1, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #2, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+ -- Split #3, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+ -- Split #4, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.67
+ -- Split #5, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+======================================================================================
+Performance metrics of model gradient_boost_tree
+ -- mcc : Mean=0.5542, STD=0.0103
+ -- accuracy : Mean=0.8091, STD=0.0042
+ -- f1_score : Mean=0.6786, STD=0.0081
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'learning_rate': 0.2, 'n_estimators': 125}
+--------------------------------------------------------------------------------------
+Cross valiation for gradient_boost_tree
+ -- Split #1, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+ -- Split #2, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+ -- Split #3, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.69
+ -- Split #4, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+ -- Split #5, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.69
+======================================================================================
+Performance metrics of model gradient_boost_tree
+ -- mcc : Mean=0.5617, STD=0.0129
+ -- accuracy : Mean=0.8123, STD=0.0055
+ -- f1_score : Mean=0.6826, STD=0.0075
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'learning_rate': 0.5, 'n_estimators': 25}
+--------------------------------------------------------------------------------------
+Cross valiation for gradient_boost_tree
+ -- Split #1, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+ -- Split #2, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+ -- Split #3, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #4, performance metrics mcc = 0.53, accuracy = 0.80, f1_score = 0.66
+ -- Split #5, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.67
+======================================================================================
+Performance metrics of model gradient_boost_tree
+ -- mcc : Mean=0.5502, STD=0.0106
+ -- accuracy : Mean=0.8076, STD=0.0043
+ -- f1_score : Mean=0.6741, STD=0.0089
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'learning_rate': 0.5, 'n_estimators': 50}
+--------------------------------------------------------------------------------------
+Cross valiation for gradient_boost_tree
+ -- Split #1, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+ -- Split #2, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #3, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.67
+ -- Split #4, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+ -- Split #5, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+======================================================================================
+Performance metrics of model gradient_boost_tree
+ -- mcc : Mean=0.5547, STD=0.0118
+ -- accuracy : Mean=0.8095, STD=0.0048
+ -- f1_score : Mean=0.6777, STD=0.0085
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'learning_rate': 0.5, 'n_estimators': 75}
+--------------------------------------------------------------------------------------
+Cross valiation for gradient_boost_tree
+ -- Split #1, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+ -- Split #2, performance metrics mcc = 0.59, accuracy = 0.82, f1_score = 0.70
+ -- Split #3, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.69
+ -- Split #4, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+ -- Split #5, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.69
+======================================================================================
+Performance metrics of model gradient_boost_tree
+ -- mcc : Mean=0.5647, STD=0.0121
+ -- accuracy : Mean=0.8132, STD=0.0050
+ -- f1_score : Mean=0.6882, STD=0.0088
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'learning_rate': 0.5, 'n_estimators': 100}
+--------------------------------------------------------------------------------------
+Cross valiation for gradient_boost_tree
+ -- Split #1, performance metrics mcc = 0.59, accuracy = 0.82, f1_score = 0.70
+ -- Split #2, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+ -- Split #3, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.69
+ -- Split #4, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.69
+ -- Split #5, performance metrics mcc = 0.59, accuracy = 0.82, f1_score = 0.71
+======================================================================================
+Performance metrics of model gradient_boost_tree
+ -- mcc : Mean=0.5759, STD=0.0110
+ -- accuracy : Mean=0.8177, STD=0.0045
+ -- f1_score : Mean=0.6977, STD=0.0084
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'learning_rate': 0.5, 'n_estimators': 125}
+--------------------------------------------------------------------------------------
+Cross valiation for gradient_boost_tree
+ -- Split #1, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.69
+ -- Split #2, performance metrics mcc = 0.60, accuracy = 0.83, f1_score = 0.71
+ -- Split #3, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
+ -- Split #4, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
+ -- Split #5, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.69
+======================================================================================
+Performance metrics of model gradient_boost_tree
+ -- mcc : Mean=0.5764, STD=0.0129
+ -- accuracy : Mean=0.8178, STD=0.0054
+ -- f1_score : Mean=0.6991, STD=0.0094
+--------------------------------------------------------------------------------------
+
+Best hyper-parameters set:
+{'learning_rate': 0.5, 'n_estimators': 125}
+
+Test results :
+{'mcc': 0.43738448842350786, 'accuracy': 0.8694017472077851, 'f1_score': 0.5093477357706688}
+
+Checkpoint saved to ./checkpoints\with_oversampling\gradient_boost_tree.pkl
