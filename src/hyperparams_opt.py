@@ -8,7 +8,8 @@ models = {
         'hyperparams' : {
             'n_estimators' : [25 * i for i in range(1, 6)],
             'max_depth' : [10, 20]
-        }
+        },
+        'ckpt_filename' : 'random_forest.pkl'
     },
     'decision_tree' : {
         'model_class' : DecisionTreeClassifier,
@@ -16,7 +17,8 @@ models = {
             'criterion' : ['gini', 'entropy'],
             'max_depth' : [10, 20],
             'min_samples_split' : [2, 5, 10]
-        }
+        },
+        'ckpt_filename' : 'decision_tree.pkl'
     }
 }
 

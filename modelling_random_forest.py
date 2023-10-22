@@ -11,8 +11,11 @@ import src.hyperparams_opt as hyperparams_opt
 
 # Some constants
 LABEL_ENC_FOLDER = './encoders'
+CHECKPOINT_FOLDER = './checkpoints'
 if(not os.path.exists(LABEL_ENC_FOLDER)):
     os.mkdir(LABEL_ENC_FOLDER)
+if(not os.path.exists(CHECKPOINT_FOLDER)):
+    os.mkdir(CHECKPOINT_FOLDER)
 
 def preprocessing_df(df):
     ### Label encoder paths ###
@@ -85,6 +88,7 @@ if __name__ == '__main__':
     metrics = hyperparams_opt.metrics
     model_class = hyperparams_opt.models['random_forest']['model_class']
     hyperparams = hyperparams_opt.models['random_forest']['hyperparams']
+    ckpt_filename = hyperparams_opt.models['random_forest']['ckpt_filename']
     results, best_param = hyperparams_tuning(train_df, model_class, hyperparams, metrics, feat_cols, target_col, target_metric='mcc')
     print(f'\nBest hyper-parameters set:\n{best_param}')
 
@@ -100,3 +104,10 @@ if __name__ == '__main__':
         for key in metrics.keys()
     }
     print(f'\nTest results :\n{results}')
+
+    # Checkpoint the model
+    ckpt_file = os.path.join(CHECKPOINT_FOLDER, ckpt_filename)
+    with open(ckpt_file, 'wb') as f:
+        pickle.dump(model, f)
+    print(f'\nCheckpoint saved to {ckpt_file}')
+
