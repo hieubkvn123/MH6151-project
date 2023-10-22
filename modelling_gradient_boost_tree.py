@@ -67,6 +67,10 @@ if __name__ == '__main__':
     parser.add_argument('--oversampling', required=False, action='store_true', help='Oversampling or not')
     args = vars(parser.parse_args())
 
+    if(args['oversampling']):
+        CHECKPOINT_FOLDER = os.path.join(CHECKPOINT_FOLDER, 'with_oversampling')
+        os.mkdir(CHECKPOINT_FOLDER)
+
     ### 1. Load data ###
     train_df = pd.read_csv('data/bank-train.csv', sep=',')
     test_df  = pd.read_csv('data/bank-test.csv', sep=',')
