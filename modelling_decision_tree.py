@@ -83,8 +83,8 @@ if __name__ == '__main__':
 
     # Prepare for hyper-parameters tuning
     metrics = hyperparams_opt.metrics
-    model_class = hyperparams_opt.models['random_forest']['model_class']
-    hyperparams = hyperparams_opt.models['random_forest']['hyperparams']
+    model_class = hyperparams_opt.models['decision_tree']['model_class']
+    hyperparams = hyperparams_opt.models['decision_tree']['hyperparams']
     results, best_param = hyperparams_tuning(train_df, model_class, hyperparams, metrics, feat_cols, target_col, target_metric='mcc')
     print(f'\nBest hyper-parameters set:\n{best_param}')
 
