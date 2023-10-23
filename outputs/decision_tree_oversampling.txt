@@ -1,19 +1,70 @@
 
 
 --------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'gini', 'max_depth': 5, 'min_samples_split': 2}
+--------------------------------------------------------------------------------------
+Cross valiation for decision_tree
+ -- Split #1, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+ -- Split #2, performance metrics mcc = 0.53, accuracy = 0.80, f1_score = 0.67
+ -- Split #3, performance metrics mcc = 0.52, accuracy = 0.79, f1_score = 0.66
+ -- Split #4, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+ -- Split #5, performance metrics mcc = 0.53, accuracy = 0.80, f1_score = 0.66
+======================================================================================
+Performance metrics of model decision_tree
+ -- mcc : Mean=0.5303, STD=0.0077
+ -- accuracy : Mean=0.7987, STD=0.0034
+ -- f1_score : Mean=0.6651, STD=0.0044
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'gini', 'max_depth': 5, 'min_samples_split': 5}
+--------------------------------------------------------------------------------------
+Cross valiation for decision_tree
+ -- Split #1, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+ -- Split #2, performance metrics mcc = 0.54, accuracy = 0.81, f1_score = 0.67
+ -- Split #3, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+ -- Split #4, performance metrics mcc = 0.52, accuracy = 0.80, f1_score = 0.66
+ -- Split #5, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+======================================================================================
+Performance metrics of model decision_tree
+ -- mcc : Mean=0.5395, STD=0.0088
+ -- accuracy : Mean=0.8031, STD=0.0036
+ -- f1_score : Mean=0.6679, STD=0.0069
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'gini', 'max_depth': 5, 'min_samples_split': 10}
+--------------------------------------------------------------------------------------
+Cross valiation for decision_tree
+ -- Split #1, performance metrics mcc = 0.53, accuracy = 0.80, f1_score = 0.66
+ -- Split #2, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+ -- Split #3, performance metrics mcc = 0.53, accuracy = 0.80, f1_score = 0.65
+ -- Split #4, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+ -- Split #5, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.66
+======================================================================================
+Performance metrics of model decision_tree
+ -- mcc : Mean=0.5340, STD=0.0076
+ -- accuracy : Mean=0.8010, STD=0.0029
+ -- f1_score : Mean=0.6625, STD=0.0082
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
 Parameters set : {'criterion': 'gini', 'max_depth': 10, 'min_samples_split': 2}
 --------------------------------------------------------------------------------------
 Cross valiation for decision_tree
- -- Split #1, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.69
- -- Split #2, performance metrics mcc = 0.60, accuracy = 0.83, f1_score = 0.71
- -- Split #3, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.69
- -- Split #4, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
- -- Split #5, performance metrics mcc = 0.59, accuracy = 0.82, f1_score = 0.71
+ -- Split #1, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
+ -- Split #2, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+ -- Split #3, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
+ -- Split #4, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.69
+ -- Split #5, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.69
 ======================================================================================
 Performance metrics of model decision_tree
- -- mcc : Mean=0.5758, STD=0.0153
- -- accuracy : Mean=0.8180, STD=0.0064
- -- f1_score : Mean=0.6941, STD=0.0104
+ -- mcc : Mean=0.5688, STD=0.0119
+ -- accuracy : Mean=0.8151, STD=0.0049
+ -- f1_score : Mean=0.6902, STD=0.0087
 --------------------------------------------------------------------------------------
 
 
@@ -21,16 +72,16 @@ Performance metrics of model decision_tree
 Parameters set : {'criterion': 'gini', 'max_depth': 10, 'min_samples_split': 5}
 --------------------------------------------------------------------------------------
 Cross valiation for decision_tree
- -- Split #1, performance metrics mcc = 0.59, accuracy = 0.82, f1_score = 0.71
+ -- Split #1, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
  -- Split #2, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
- -- Split #3, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.69
- -- Split #4, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.69
- -- Split #5, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #3, performance metrics mcc = 0.59, accuracy = 0.82, f1_score = 0.71
+ -- Split #4, performance metrics mcc = 0.60, accuracy = 0.83, f1_score = 0.71
+ -- Split #5, performance metrics mcc = 0.59, accuracy = 0.82, f1_score = 0.71
 ======================================================================================
 Performance metrics of model decision_tree
- -- mcc : Mean=0.5702, STD=0.0117
- -- accuracy : Mean=0.8154, STD=0.0048
- -- f1_score : Mean=0.6930, STD=0.0087
+ -- mcc : Mean=0.5833, STD=0.0159
+ -- accuracy : Mean=0.8211, STD=0.0066
+ -- f1_score : Mean=0.7007, STD=0.0113
 --------------------------------------------------------------------------------------
 
 
@@ -38,16 +89,16 @@ Performance metrics of model decision_tree
 Parameters set : {'criterion': 'gini', 'max_depth': 10, 'min_samples_split': 10}
 --------------------------------------------------------------------------------------
 Cross valiation for decision_tree
- -- Split #1, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.69
- -- Split #2, performance metrics mcc = 0.60, accuracy = 0.83, f1_score = 0.71
- -- Split #3, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
- -- Split #4, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
- -- Split #5, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #1, performance metrics mcc = 0.59, accuracy = 0.83, f1_score = 0.71
+ -- Split #2, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+ -- Split #3, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #4, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.69
+ -- Split #5, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
 ======================================================================================
 Performance metrics of model decision_tree
- -- mcc : Mean=0.5764, STD=0.0121
- -- accuracy : Mean=0.8182, STD=0.0048
- -- f1_score : Mean=0.6958, STD=0.0110
+ -- mcc : Mean=0.5641, STD=0.0176
+ -- accuracy : Mean=0.8130, STD=0.0070
+ -- f1_score : Mean=0.6875, STD=0.0153
 --------------------------------------------------------------------------------------
 
 
@@ -55,16 +106,16 @@ Performance metrics of model decision_tree
 Parameters set : {'criterion': 'gini', 'max_depth': 20, 'min_samples_split': 2}
 --------------------------------------------------------------------------------------
 Cross valiation for decision_tree
- -- Split #1, performance metrics mcc = 0.80, accuracy = 0.91, f1_score = 0.87
- -- Split #2, performance metrics mcc = 0.76, accuracy = 0.89, f1_score = 0.84
- -- Split #3, performance metrics mcc = 0.73, accuracy = 0.88, f1_score = 0.82
- -- Split #4, performance metrics mcc = 0.78, accuracy = 0.90, f1_score = 0.85
- -- Split #5, performance metrics mcc = 0.75, accuracy = 0.89, f1_score = 0.84
+ -- Split #1, performance metrics mcc = 0.74, accuracy = 0.88, f1_score = 0.83
+ -- Split #2, performance metrics mcc = 0.75, accuracy = 0.88, f1_score = 0.84
+ -- Split #3, performance metrics mcc = 0.77, accuracy = 0.89, f1_score = 0.85
+ -- Split #4, performance metrics mcc = 0.78, accuracy = 0.90, f1_score = 0.86
+ -- Split #5, performance metrics mcc = 0.76, accuracy = 0.89, f1_score = 0.84
 ======================================================================================
 Performance metrics of model decision_tree
- -- mcc : Mean=0.7652, STD=0.0233
- -- accuracy : Mean=0.8929, STD=0.0095
- -- f1_score : Mean=0.8455, STD=0.0154
+ -- mcc : Mean=0.7596, STD=0.0129
+ -- accuracy : Mean=0.8902, STD=0.0056
+ -- f1_score : Mean=0.8420, STD=0.0086
 --------------------------------------------------------------------------------------
 
 
@@ -72,16 +123,16 @@ Performance metrics of model decision_tree
 Parameters set : {'criterion': 'gini', 'max_depth': 20, 'min_samples_split': 5}
 --------------------------------------------------------------------------------------
 Cross valiation for decision_tree
- -- Split #1, performance metrics mcc = 0.74, accuracy = 0.88, f1_score = 0.83
- -- Split #2, performance metrics mcc = 0.73, accuracy = 0.88, f1_score = 0.82
- -- Split #3, performance metrics mcc = 0.74, accuracy = 0.88, f1_score = 0.83
+ -- Split #1, performance metrics mcc = 0.77, accuracy = 0.90, f1_score = 0.85
+ -- Split #2, performance metrics mcc = 0.75, accuracy = 0.89, f1_score = 0.84
+ -- Split #3, performance metrics mcc = 0.74, accuracy = 0.89, f1_score = 0.83
  -- Split #4, performance metrics mcc = 0.74, accuracy = 0.88, f1_score = 0.83
- -- Split #5, performance metrics mcc = 0.78, accuracy = 0.90, f1_score = 0.85
+ -- Split #5, performance metrics mcc = 0.73, accuracy = 0.88, f1_score = 0.82
 ======================================================================================
 Performance metrics of model decision_tree
- -- mcc : Mean=0.7471, STD=0.0150
- -- accuracy : Mean=0.8851, STD=0.0058
- -- f1_score : Mean=0.8335, STD=0.0101
+ -- mcc : Mean=0.7480, STD=0.0133
+ -- accuracy : Mean=0.8864, STD=0.0055
+ -- f1_score : Mean=0.8336, STD=0.0090
 --------------------------------------------------------------------------------------
 
 
@@ -89,16 +140,67 @@ Performance metrics of model decision_tree
 Parameters set : {'criterion': 'gini', 'max_depth': 20, 'min_samples_split': 10}
 --------------------------------------------------------------------------------------
 Cross valiation for decision_tree
- -- Split #1, performance metrics mcc = 0.70, accuracy = 0.86, f1_score = 0.80
- -- Split #2, performance metrics mcc = 0.72, accuracy = 0.88, f1_score = 0.82
+ -- Split #1, performance metrics mcc = 0.72, accuracy = 0.87, f1_score = 0.81
+ -- Split #2, performance metrics mcc = 0.70, accuracy = 0.86, f1_score = 0.80
  -- Split #3, performance metrics mcc = 0.70, accuracy = 0.87, f1_score = 0.80
- -- Split #4, performance metrics mcc = 0.73, accuracy = 0.88, f1_score = 0.82
- -- Split #5, performance metrics mcc = 0.72, accuracy = 0.87, f1_score = 0.81
+ -- Split #4, performance metrics mcc = 0.70, accuracy = 0.87, f1_score = 0.80
+ -- Split #5, performance metrics mcc = 0.70, accuracy = 0.87, f1_score = 0.80
 ======================================================================================
 Performance metrics of model decision_tree
- -- mcc : Mean=0.7131, STD=0.0121
- -- accuracy : Mean=0.8711, STD=0.0049
- -- f1_score : Mean=0.8104, STD=0.0085
+ -- mcc : Mean=0.7036, STD=0.0083
+ -- accuracy : Mean=0.8674, STD=0.0039
+ -- f1_score : Mean=0.8034, STD=0.0055
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'entropy', 'max_depth': 5, 'min_samples_split': 2}
+--------------------------------------------------------------------------------------
+Cross valiation for decision_tree
+ -- Split #1, performance metrics mcc = 0.53, accuracy = 0.80, f1_score = 0.66
+ -- Split #2, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+ -- Split #3, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+ -- Split #4, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+ -- Split #5, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+======================================================================================
+Performance metrics of model decision_tree
+ -- mcc : Mean=0.5432, STD=0.0115
+ -- accuracy : Mean=0.8042, STD=0.0051
+ -- f1_score : Mean=0.6737, STD=0.0061
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'entropy', 'max_depth': 5, 'min_samples_split': 5}
+--------------------------------------------------------------------------------------
+Cross valiation for decision_tree
+ -- Split #1, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+ -- Split #2, performance metrics mcc = 0.54, accuracy = 0.81, f1_score = 0.67
+ -- Split #3, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+ -- Split #4, performance metrics mcc = 0.53, accuracy = 0.80, f1_score = 0.66
+ -- Split #5, performance metrics mcc = 0.53, accuracy = 0.80, f1_score = 0.66
+======================================================================================
+Performance metrics of model decision_tree
+ -- mcc : Mean=0.5361, STD=0.0064
+ -- accuracy : Mean=0.8016, STD=0.0027
+ -- f1_score : Mean=0.6665, STD=0.0048
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'entropy', 'max_depth': 5, 'min_samples_split': 10}
+--------------------------------------------------------------------------------------
+Cross valiation for decision_tree
+ -- Split #1, performance metrics mcc = 0.53, accuracy = 0.80, f1_score = 0.66
+ -- Split #2, performance metrics mcc = 0.53, accuracy = 0.80, f1_score = 0.66
+ -- Split #3, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+ -- Split #4, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #5, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+======================================================================================
+Performance metrics of model decision_tree
+ -- mcc : Mean=0.5384, STD=0.0114
+ -- accuracy : Mean=0.8025, STD=0.0048
+ -- f1_score : Mean=0.6679, STD=0.0071
 --------------------------------------------------------------------------------------
 
 
@@ -106,16 +208,16 @@ Performance metrics of model decision_tree
 Parameters set : {'criterion': 'entropy', 'max_depth': 10, 'min_samples_split': 2}
 --------------------------------------------------------------------------------------
 Cross valiation for decision_tree
- -- Split #1, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.67
- -- Split #2, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.69
- -- Split #3, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
- -- Split #4, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
- -- Split #5, performance metrics mcc = 0.54, accuracy = 0.81, f1_score = 0.67
+ -- Split #1, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+ -- Split #2, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+ -- Split #3, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
+ -- Split #4, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
+ -- Split #5, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.69
 ======================================================================================
 Performance metrics of model decision_tree
- -- mcc : Mean=0.5540, STD=0.0087
- -- accuracy : Mean=0.8091, STD=0.0035
- -- f1_score : Mean=0.6779, STD=0.0079
+ -- mcc : Mean=0.5716, STD=0.0126
+ -- accuracy : Mean=0.8162, STD=0.0052
+ -- f1_score : Mean=0.6920, STD=0.0099
 --------------------------------------------------------------------------------------
 
 
@@ -123,16 +225,16 @@ Performance metrics of model decision_tree
 Parameters set : {'criterion': 'entropy', 'max_depth': 10, 'min_samples_split': 5}
 --------------------------------------------------------------------------------------
 Cross valiation for decision_tree
- -- Split #1, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
- -- Split #2, performance metrics mcc = 0.59, accuracy = 0.82, f1_score = 0.71
- -- Split #3, performance metrics mcc = 0.59, accuracy = 0.82, f1_score = 0.71
- -- Split #4, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
- -- Split #5, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.67
+ -- Split #1, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.70
+ -- Split #2, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #3, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.69
+ -- Split #4, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.69
+ -- Split #5, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
 ======================================================================================
 Performance metrics of model decision_tree
- -- mcc : Mean=0.5733, STD=0.0161
- -- accuracy : Mean=0.8171, STD=0.0065
- -- f1_score : Mean=0.6916, STD=0.0137
+ -- mcc : Mean=0.5654, STD=0.0095
+ -- accuracy : Mean=0.8136, STD=0.0040
+ -- f1_score : Mean=0.6874, STD=0.0076
 --------------------------------------------------------------------------------------
 
 
@@ -140,16 +242,16 @@ Performance metrics of model decision_tree
 Parameters set : {'criterion': 'entropy', 'max_depth': 10, 'min_samples_split': 10}
 --------------------------------------------------------------------------------------
 Cross valiation for decision_tree
- -- Split #1, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.69
- -- Split #2, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.69
- -- Split #3, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.67
- -- Split #4, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
- -- Split #5, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+ -- Split #1, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #2, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+ -- Split #3, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
+ -- Split #4, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.68
+ -- Split #5, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
 ======================================================================================
 Performance metrics of model decision_tree
- -- mcc : Mean=0.5654, STD=0.0074
- -- accuracy : Mean=0.8138, STD=0.0030
- -- f1_score : Mean=0.6848, STD=0.0074
+ -- mcc : Mean=0.5676, STD=0.0115
+ -- accuracy : Mean=0.8148, STD=0.0048
+ -- f1_score : Mean=0.6872, STD=0.0083
 --------------------------------------------------------------------------------------
 
 
@@ -157,16 +259,16 @@ Performance metrics of model decision_tree
 Parameters set : {'criterion': 'entropy', 'max_depth': 20, 'min_samples_split': 2}
 --------------------------------------------------------------------------------------
 Cross valiation for decision_tree
- -- Split #1, performance metrics mcc = 0.72, accuracy = 0.88, f1_score = 0.81
- -- Split #2, performance metrics mcc = 0.76, accuracy = 0.89, f1_score = 0.84
- -- Split #3, performance metrics mcc = 0.72, accuracy = 0.87, f1_score = 0.81
- -- Split #4, performance metrics mcc = 0.73, accuracy = 0.88, f1_score = 0.82
- -- Split #5, performance metrics mcc = 0.72, accuracy = 0.87, f1_score = 0.81
+ -- Split #1, performance metrics mcc = 0.72, accuracy = 0.88, f1_score = 0.82
+ -- Split #2, performance metrics mcc = 0.73, accuracy = 0.88, f1_score = 0.82
+ -- Split #3, performance metrics mcc = 0.73, accuracy = 0.88, f1_score = 0.82
+ -- Split #4, performance metrics mcc = 0.72, accuracy = 0.87, f1_score = 0.81
+ -- Split #5, performance metrics mcc = 0.71, accuracy = 0.87, f1_score = 0.81
 ======================================================================================
 Performance metrics of model decision_tree
- -- mcc : Mean=0.7289, STD=0.0177
- -- accuracy : Mean=0.8780, STD=0.0072
- -- f1_score : Mean=0.8208, STD=0.0122
+ -- mcc : Mean=0.7211, STD=0.0069
+ -- accuracy : Mean=0.8751, STD=0.0040
+ -- f1_score : Mean=0.8150, STD=0.0037
 --------------------------------------------------------------------------------------
 
 
@@ -174,16 +276,16 @@ Performance metrics of model decision_tree
 Parameters set : {'criterion': 'entropy', 'max_depth': 20, 'min_samples_split': 5}
 --------------------------------------------------------------------------------------
 Cross valiation for decision_tree
- -- Split #1, performance metrics mcc = 0.72, accuracy = 0.88, f1_score = 0.82
- -- Split #2, performance metrics mcc = 0.70, accuracy = 0.87, f1_score = 0.80
- -- Split #3, performance metrics mcc = 0.73, accuracy = 0.88, f1_score = 0.82
- -- Split #4, performance metrics mcc = 0.71, accuracy = 0.87, f1_score = 0.81
- -- Split #5, performance metrics mcc = 0.74, accuracy = 0.88, f1_score = 0.83
+ -- Split #1, performance metrics mcc = 0.68, accuracy = 0.86, f1_score = 0.79
+ -- Split #2, performance metrics mcc = 0.71, accuracy = 0.87, f1_score = 0.81
+ -- Split #3, performance metrics mcc = 0.72, accuracy = 0.87, f1_score = 0.81
+ -- Split #4, performance metrics mcc = 0.72, accuracy = 0.87, f1_score = 0.82
+ -- Split #5, performance metrics mcc = 0.69, accuracy = 0.86, f1_score = 0.80
 ======================================================================================
 Performance metrics of model decision_tree
- -- mcc : Mean=0.7194, STD=0.0148
- -- accuracy : Mean=0.8752, STD=0.0059
- -- f1_score : Mean=0.8128, STD=0.0109
+ -- mcc : Mean=0.7054, STD=0.0149
+ -- accuracy : Mean=0.8688, STD=0.0067
+ -- f1_score : Mean=0.8037, STD=0.0097
 --------------------------------------------------------------------------------------
 
 
@@ -191,22 +293,22 @@ Performance metrics of model decision_tree
 Parameters set : {'criterion': 'entropy', 'max_depth': 20, 'min_samples_split': 10}
 --------------------------------------------------------------------------------------
 Cross valiation for decision_tree
- -- Split #1, performance metrics mcc = 0.70, accuracy = 0.87, f1_score = 0.80
- -- Split #2, performance metrics mcc = 0.68, accuracy = 0.86, f1_score = 0.79
- -- Split #3, performance metrics mcc = 0.69, accuracy = 0.86, f1_score = 0.79
- -- Split #4, performance metrics mcc = 0.66, accuracy = 0.85, f1_score = 0.78
- -- Split #5, performance metrics mcc = 0.69, accuracy = 0.86, f1_score = 0.79
+ -- Split #1, performance metrics mcc = 0.69, accuracy = 0.86, f1_score = 0.79
+ -- Split #2, performance metrics mcc = 0.69, accuracy = 0.86, f1_score = 0.79
+ -- Split #3, performance metrics mcc = 0.68, accuracy = 0.86, f1_score = 0.79
+ -- Split #4, performance metrics mcc = 0.68, accuracy = 0.86, f1_score = 0.79
+ -- Split #5, performance metrics mcc = 0.71, accuracy = 0.87, f1_score = 0.80
 ======================================================================================
 Performance metrics of model decision_tree
- -- mcc : Mean=0.6846, STD=0.0125
- -- accuracy : Mean=0.8602, STD=0.0055
- -- f1_score : Mean=0.7889, STD=0.0086
+ -- mcc : Mean=0.6902, STD=0.0088
+ -- accuracy : Mean=0.8628, STD=0.0038
+ -- f1_score : Mean=0.7926, STD=0.0061
 --------------------------------------------------------------------------------------
 
 Best hyper-parameters set:
 {'criterion': 'gini', 'max_depth': 20, 'min_samples_split': 2}
 
 Test results :
-{'mcc': 0.28459542426348045, 'accuracy': 0.8387703195842088, 'f1_score': 0.37585616438356156}
+{'mcc': 0.2882536790082257, 'accuracy': 0.8434147959747871, 'f1_score': 0.37730870712401055}
 
-Checkpoint saved to ./checkpoints\with_oversampling\decision_tree.pkl
+Checkpoint saved to ./checkpoints/with_oversampling/decision_tree.pkl

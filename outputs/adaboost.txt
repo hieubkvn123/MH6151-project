@@ -4,16 +4,16 @@
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 25, 'learning_rate': 0.1}
 --------------------------------------------------------------------------------------
 Cross valiation for adaboost
- -- Split #1, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #2, performance metrics mcc = 0.85, accuracy = 0.92, f1_score = 0.90
- -- Split #3, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #4, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #5, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
+ -- Split #1, performance metrics mcc = 0.21, accuracy = 0.83, f1_score = 0.31
+ -- Split #2, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #3, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #4, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
+ -- Split #5, performance metrics mcc = 0.22, accuracy = 0.83, f1_score = 0.31
 ======================================================================================
 Performance metrics of model adaboost
- -- mcc : Mean=0.8486, STD=0.0031
- -- accuracy : Mean=0.9264, STD=0.0021
- -- f1_score : Mean=0.8987, STD=0.0023
+ -- mcc : Mean=0.2345, STD=0.0160
+ -- accuracy : Mean=0.8360, STD=0.0025
+ -- f1_score : Mean=0.3273, STD=0.0146
 --------------------------------------------------------------------------------------
 
 
@@ -21,16 +21,16 @@ Performance metrics of model adaboost
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 25, 'learning_rate': 0.2}
 --------------------------------------------------------------------------------------
 Cross valiation for adaboost
- -- Split #1, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #2, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #3, performance metrics mcc = 0.85, accuracy = 0.92, f1_score = 0.90
- -- Split #4, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #5, performance metrics mcc = 0.86, accuracy = 0.93, f1_score = 0.90
+ -- Split #1, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #2, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.34
+ -- Split #3, performance metrics mcc = 0.23, accuracy = 0.83, f1_score = 0.32
+ -- Split #4, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #5, performance metrics mcc = 0.22, accuracy = 0.83, f1_score = 0.32
 ======================================================================================
 Performance metrics of model adaboost
- -- mcc : Mean=0.8519, STD=0.0033
- -- accuracy : Mean=0.9279, STD=0.0016
- -- f1_score : Mean=0.9008, STD=0.0021
+ -- mcc : Mean=0.2384, STD=0.0111
+ -- accuracy : Mean=0.8372, STD=0.0051
+ -- f1_score : Mean=0.3304, STD=0.0085
 --------------------------------------------------------------------------------------
 
 
@@ -38,16 +38,16 @@ Performance metrics of model adaboost
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 25, 'learning_rate': 0.5}
 --------------------------------------------------------------------------------------
 Cross valiation for adaboost
- -- Split #1, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #2, performance metrics mcc = 0.84, accuracy = 0.92, f1_score = 0.90
- -- Split #3, performance metrics mcc = 0.86, accuracy = 0.93, f1_score = 0.90
- -- Split #4, performance metrics mcc = 0.86, accuracy = 0.93, f1_score = 0.90
- -- Split #5, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
+ -- Split #1, performance metrics mcc = 0.23, accuracy = 0.84, f1_score = 0.32
+ -- Split #2, performance metrics mcc = 0.23, accuracy = 0.83, f1_score = 0.32
+ -- Split #3, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #4, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #5, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
 ======================================================================================
 Performance metrics of model adaboost
- -- mcc : Mean=0.8514, STD=0.0050
- -- accuracy : Mean=0.9274, STD=0.0026
- -- f1_score : Mean=0.9003, STD=0.0033
+ -- mcc : Mean=0.2403, STD=0.0089
+ -- accuracy : Mean=0.8365, STD=0.0012
+ -- f1_score : Mean=0.3326, STD=0.0085
 --------------------------------------------------------------------------------------
 
 
@@ -55,16 +55,16 @@ Performance metrics of model adaboost
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 50, 'learning_rate': 0.1}
 --------------------------------------------------------------------------------------
 Cross valiation for adaboost
- -- Split #1, performance metrics mcc = 0.86, accuracy = 0.93, f1_score = 0.91
- -- Split #2, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
- -- Split #3, performance metrics mcc = 0.84, accuracy = 0.92, f1_score = 0.89
- -- Split #4, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #5, performance metrics mcc = 0.86, accuracy = 0.93, f1_score = 0.90
+ -- Split #1, performance metrics mcc = 0.26, accuracy = 0.84, f1_score = 0.35
+ -- Split #2, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #3, performance metrics mcc = 0.26, accuracy = 0.84, f1_score = 0.35
+ -- Split #4, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
+ -- Split #5, performance metrics mcc = 0.24, accuracy = 0.83, f1_score = 0.34
 ======================================================================================
 Performance metrics of model adaboost
- -- mcc : Mean=0.8553, STD=0.0088
- -- accuracy : Mean=0.9296, STD=0.0045
- -- f1_score : Mean=0.9030, STD=0.0058
+ -- mcc : Mean=0.2503, STD=0.0088
+ -- accuracy : Mean=0.8389, STD=0.0036
+ -- f1_score : Mean=0.3413, STD=0.0077
 --------------------------------------------------------------------------------------
 
 
@@ -72,16 +72,16 @@ Performance metrics of model adaboost
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 50, 'learning_rate': 0.2}
 --------------------------------------------------------------------------------------
 Cross valiation for adaboost
- -- Split #1, performance metrics mcc = 0.84, accuracy = 0.92, f1_score = 0.89
- -- Split #2, performance metrics mcc = 0.86, accuracy = 0.93, f1_score = 0.90
- -- Split #3, performance metrics mcc = 0.84, accuracy = 0.92, f1_score = 0.89
- -- Split #4, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #5, performance metrics mcc = 0.86, accuracy = 0.93, f1_score = 0.90
+ -- Split #1, performance metrics mcc = 0.28, accuracy = 0.85, f1_score = 0.37
+ -- Split #2, performance metrics mcc = 0.26, accuracy = 0.84, f1_score = 0.35
+ -- Split #3, performance metrics mcc = 0.22, accuracy = 0.84, f1_score = 0.32
+ -- Split #4, performance metrics mcc = 0.27, accuracy = 0.84, f1_score = 0.36
+ -- Split #5, performance metrics mcc = 0.28, accuracy = 0.84, f1_score = 0.37
 ======================================================================================
 Performance metrics of model adaboost
- -- mcc : Mean=0.8471, STD=0.0083
- -- accuracy : Mean=0.9253, STD=0.0046
- -- f1_score : Mean=0.8975, STD=0.0056
+ -- mcc : Mean=0.2629, STD=0.0208
+ -- accuracy : Mean=0.8417, STD=0.0035
+ -- f1_score : Mean=0.3523, STD=0.0190
 --------------------------------------------------------------------------------------
 
 
@@ -89,16 +89,16 @@ Performance metrics of model adaboost
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 50, 'learning_rate': 0.5}
 --------------------------------------------------------------------------------------
 Cross valiation for adaboost
- -- Split #1, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #2, performance metrics mcc = 0.84, accuracy = 0.92, f1_score = 0.89
- -- Split #3, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #4, performance metrics mcc = 0.85, accuracy = 0.92, f1_score = 0.90
- -- Split #5, performance metrics mcc = 0.86, accuracy = 0.93, f1_score = 0.91
+ -- Split #1, performance metrics mcc = 0.24, accuracy = 0.83, f1_score = 0.33
+ -- Split #2, performance metrics mcc = 0.26, accuracy = 0.84, f1_score = 0.35
+ -- Split #3, performance metrics mcc = 0.26, accuracy = 0.84, f1_score = 0.35
+ -- Split #4, performance metrics mcc = 0.26, accuracy = 0.84, f1_score = 0.35
+ -- Split #5, performance metrics mcc = 0.27, accuracy = 0.85, f1_score = 0.36
 ======================================================================================
 Performance metrics of model adaboost
- -- mcc : Mean=0.8497, STD=0.0054
- -- accuracy : Mean=0.9267, STD=0.0027
- -- f1_score : Mean=0.8993, STD=0.0035
+ -- mcc : Mean=0.2587, STD=0.0114
+ -- accuracy : Mean=0.8399, STD=0.0045
+ -- f1_score : Mean=0.3491, STD=0.0092
 --------------------------------------------------------------------------------------
 
 
@@ -106,16 +106,16 @@ Performance metrics of model adaboost
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 75, 'learning_rate': 0.1}
 --------------------------------------------------------------------------------------
 Cross valiation for adaboost
- -- Split #1, performance metrics mcc = 0.86, accuracy = 0.93, f1_score = 0.90
- -- Split #2, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #3, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #4, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #5, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
+ -- Split #1, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
+ -- Split #2, performance metrics mcc = 0.26, accuracy = 0.84, f1_score = 0.35
+ -- Split #3, performance metrics mcc = 0.28, accuracy = 0.85, f1_score = 0.37
+ -- Split #4, performance metrics mcc = 0.22, accuracy = 0.83, f1_score = 0.31
+ -- Split #5, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
 ======================================================================================
 Performance metrics of model adaboost
- -- mcc : Mean=0.8516, STD=0.0038
- -- accuracy : Mean=0.9275, STD=0.0016
- -- f1_score : Mean=0.9004, STD=0.0023
+ -- mcc : Mean=0.2486, STD=0.0197
+ -- accuracy : Mean=0.8402, STD=0.0052
+ -- f1_score : Mean=0.3391, STD=0.0169
 --------------------------------------------------------------------------------------
 
 
@@ -123,16 +123,16 @@ Performance metrics of model adaboost
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 75, 'learning_rate': 0.2}
 --------------------------------------------------------------------------------------
 Cross valiation for adaboost
- -- Split #1, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #2, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
- -- Split #3, performance metrics mcc = 0.86, accuracy = 0.93, f1_score = 0.91
- -- Split #4, performance metrics mcc = 0.84, accuracy = 0.92, f1_score = 0.89
- -- Split #5, performance metrics mcc = 0.86, accuracy = 0.93, f1_score = 0.91
+ -- Split #1, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
+ -- Split #2, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #3, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #4, performance metrics mcc = 0.26, accuracy = 0.84, f1_score = 0.35
+ -- Split #5, performance metrics mcc = 0.25, accuracy = 0.83, f1_score = 0.34
 ======================================================================================
 Performance metrics of model adaboost
- -- mcc : Mean=0.8565, STD=0.0089
- -- accuracy : Mean=0.9303, STD=0.0045
- -- f1_score : Mean=0.9039, STD=0.0059
+ -- mcc : Mean=0.2486, STD=0.0077
+ -- accuracy : Mean=0.8369, STD=0.0018
+ -- f1_score : Mean=0.3406, STD=0.0074
 --------------------------------------------------------------------------------------
 
 
@@ -140,16 +140,16 @@ Performance metrics of model adaboost
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 75, 'learning_rate': 0.5}
 --------------------------------------------------------------------------------------
 Cross valiation for adaboost
- -- Split #1, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #2, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #3, performance metrics mcc = 0.86, accuracy = 0.93, f1_score = 0.90
- -- Split #4, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #5, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
+ -- Split #1, performance metrics mcc = 0.24, accuracy = 0.83, f1_score = 0.33
+ -- Split #2, performance metrics mcc = 0.23, accuracy = 0.84, f1_score = 0.33
+ -- Split #3, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
+ -- Split #4, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
+ -- Split #5, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
 ======================================================================================
 Performance metrics of model adaboost
- -- mcc : Mean=0.8532, STD=0.0035
- -- accuracy : Mean=0.9285, STD=0.0019
- -- f1_score : Mean=0.9016, STD=0.0023
+ -- mcc : Mean=0.2402, STD=0.0068
+ -- accuracy : Mean=0.8365, STD=0.0013
+ -- f1_score : Mean=0.3326, STD=0.0063
 --------------------------------------------------------------------------------------
 
 
@@ -157,16 +157,16 @@ Performance metrics of model adaboost
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 100, 'learning_rate': 0.1}
 --------------------------------------------------------------------------------------
 Cross valiation for adaboost
- -- Split #1, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #2, performance metrics mcc = 0.86, accuracy = 0.93, f1_score = 0.91
- -- Split #3, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
- -- Split #4, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #5, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
+ -- Split #1, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
+ -- Split #2, performance metrics mcc = 0.22, accuracy = 0.84, f1_score = 0.32
+ -- Split #3, performance metrics mcc = 0.27, accuracy = 0.85, f1_score = 0.36
+ -- Split #4, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #5, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
 ======================================================================================
 Performance metrics of model adaboost
- -- mcc : Mean=0.8560, STD=0.0071
- -- accuracy : Mean=0.9301, STD=0.0036
- -- f1_score : Mean=0.9035, STD=0.0047
+ -- mcc : Mean=0.2456, STD=0.0146
+ -- accuracy : Mean=0.8408, STD=0.0036
+ -- f1_score : Mean=0.3358, STD=0.0129
 --------------------------------------------------------------------------------------
 
 
@@ -174,16 +174,16 @@ Performance metrics of model adaboost
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 100, 'learning_rate': 0.2}
 --------------------------------------------------------------------------------------
 Cross valiation for adaboost
- -- Split #1, performance metrics mcc = 0.84, accuracy = 0.92, f1_score = 0.89
- -- Split #2, performance metrics mcc = 0.86, accuracy = 0.93, f1_score = 0.90
- -- Split #3, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #4, performance metrics mcc = 0.84, accuracy = 0.92, f1_score = 0.90
- -- Split #5, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
+ -- Split #1, performance metrics mcc = 0.26, accuracy = 0.84, f1_score = 0.35
+ -- Split #2, performance metrics mcc = 0.25, accuracy = 0.85, f1_score = 0.34
+ -- Split #3, performance metrics mcc = 0.26, accuracy = 0.84, f1_score = 0.35
+ -- Split #4, performance metrics mcc = 0.26, accuracy = 0.83, f1_score = 0.35
+ -- Split #5, performance metrics mcc = 0.24, accuracy = 0.83, f1_score = 0.33
 ======================================================================================
 Performance metrics of model adaboost
- -- mcc : Mean=0.8491, STD=0.0053
- -- accuracy : Mean=0.9262, STD=0.0030
- -- f1_score : Mean=0.8988, STD=0.0036
+ -- mcc : Mean=0.2517, STD=0.0079
+ -- accuracy : Mean=0.8394, STD=0.0047
+ -- f1_score : Mean=0.3424, STD=0.0067
 --------------------------------------------------------------------------------------
 
 
@@ -191,16 +191,16 @@ Performance metrics of model adaboost
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 100, 'learning_rate': 0.5}
 --------------------------------------------------------------------------------------
 Cross valiation for adaboost
- -- Split #1, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #2, performance metrics mcc = 0.86, accuracy = 0.93, f1_score = 0.90
- -- Split #3, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #4, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #5, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
+ -- Split #1, performance metrics mcc = 0.22, accuracy = 0.84, f1_score = 0.32
+ -- Split #2, performance metrics mcc = 0.28, accuracy = 0.84, f1_score = 0.37
+ -- Split #3, performance metrics mcc = 0.27, accuracy = 0.84, f1_score = 0.35
+ -- Split #4, performance metrics mcc = 0.23, accuracy = 0.84, f1_score = 0.32
+ -- Split #5, performance metrics mcc = 0.23, accuracy = 0.84, f1_score = 0.32
 ======================================================================================
 Performance metrics of model adaboost
- -- mcc : Mean=0.8526, STD=0.0020
- -- accuracy : Mean=0.9284, STD=0.0011
- -- f1_score : Mean=0.9014, STD=0.0013
+ -- mcc : Mean=0.2464, STD=0.0238
+ -- accuracy : Mean=0.8403, STD=0.0039
+ -- f1_score : Mean=0.3368, STD=0.0216
 --------------------------------------------------------------------------------------
 
 
@@ -208,16 +208,16 @@ Performance metrics of model adaboost
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 125, 'learning_rate': 0.1}
 --------------------------------------------------------------------------------------
 Cross valiation for adaboost
- -- Split #1, performance metrics mcc = 0.86, accuracy = 0.93, f1_score = 0.90
- -- Split #2, performance metrics mcc = 0.86, accuracy = 0.93, f1_score = 0.91
- -- Split #3, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #4, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #5, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
+ -- Split #1, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
+ -- Split #2, performance metrics mcc = 0.28, accuracy = 0.85, f1_score = 0.36
+ -- Split #3, performance metrics mcc = 0.23, accuracy = 0.83, f1_score = 0.32
+ -- Split #4, performance metrics mcc = 0.28, accuracy = 0.84, f1_score = 0.37
+ -- Split #5, performance metrics mcc = 0.23, accuracy = 0.83, f1_score = 0.32
 ======================================================================================
 Performance metrics of model adaboost
- -- mcc : Mean=0.8553, STD=0.0039
- -- accuracy : Mean=0.9297, STD=0.0019
- -- f1_score : Mean=0.9031, STD=0.0025
+ -- mcc : Mean=0.2504, STD=0.0226
+ -- accuracy : Mean=0.8400, STD=0.0062
+ -- f1_score : Mean=0.3409, STD=0.0193
 --------------------------------------------------------------------------------------
 
 
@@ -225,16 +225,16 @@ Performance metrics of model adaboost
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 125, 'learning_rate': 0.2}
 --------------------------------------------------------------------------------------
 Cross valiation for adaboost
- -- Split #1, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #2, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #3, performance metrics mcc = 0.85, accuracy = 0.92, f1_score = 0.90
- -- Split #4, performance metrics mcc = 0.86, accuracy = 0.93, f1_score = 0.90
- -- Split #5, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
+ -- Split #1, performance metrics mcc = 0.23, accuracy = 0.84, f1_score = 0.32
+ -- Split #2, performance metrics mcc = 0.25, accuracy = 0.84, f1_score = 0.34
+ -- Split #3, performance metrics mcc = 0.28, accuracy = 0.84, f1_score = 0.36
+ -- Split #4, performance metrics mcc = 0.22, accuracy = 0.83, f1_score = 0.32
+ -- Split #5, performance metrics mcc = 0.22, accuracy = 0.83, f1_score = 0.31
 ======================================================================================
 Performance metrics of model adaboost
- -- mcc : Mean=0.8510, STD=0.0032
- -- accuracy : Mean=0.9271, STD=0.0016
- -- f1_score : Mean=0.9000, STD=0.0021
+ -- mcc : Mean=0.2381, STD=0.0218
+ -- accuracy : Mean=0.8355, STD=0.0056
+ -- f1_score : Mean=0.3311, STD=0.0189
 --------------------------------------------------------------------------------------
 
 
@@ -242,22 +242,22 @@ Performance metrics of model adaboost
 Parameters set : {'estimator': DecisionTreeClassifier(), 'n_estimators': 125, 'learning_rate': 0.5}
 --------------------------------------------------------------------------------------
 Cross valiation for adaboost
- -- Split #1, performance metrics mcc = 0.88, accuracy = 0.94, f1_score = 0.92
- -- Split #2, performance metrics mcc = 0.84, accuracy = 0.92, f1_score = 0.89
- -- Split #3, performance metrics mcc = 0.84, accuracy = 0.92, f1_score = 0.90
- -- Split #4, performance metrics mcc = 0.86, accuracy = 0.93, f1_score = 0.90
- -- Split #5, performance metrics mcc = 0.84, accuracy = 0.92, f1_score = 0.90
+ -- Split #1, performance metrics mcc = 0.22, accuracy = 0.83, f1_score = 0.31
+ -- Split #2, performance metrics mcc = 0.27, accuracy = 0.85, f1_score = 0.35
+ -- Split #3, performance metrics mcc = 0.24, accuracy = 0.84, f1_score = 0.33
+ -- Split #4, performance metrics mcc = 0.27, accuracy = 0.84, f1_score = 0.36
+ -- Split #5, performance metrics mcc = 0.21, accuracy = 0.83, f1_score = 0.31
 ======================================================================================
 Performance metrics of model adaboost
- -- mcc : Mean=0.8537, STD=0.0144
- -- accuracy : Mean=0.9290, STD=0.0075
- -- f1_score : Mean=0.9021, STD=0.0096
+ -- mcc : Mean=0.2416, STD=0.0229
+ -- accuracy : Mean=0.8391, STD=0.0065
+ -- f1_score : Mean=0.3326, STD=0.0197
 --------------------------------------------------------------------------------------
 
 Best hyper-parameters set:
-{'estimator': DecisionTreeClassifier(), 'n_estimators': 75, 'learning_rate': 0.2}
+{'estimator': DecisionTreeClassifier(), 'n_estimators': 50, 'learning_rate': 0.2}
 
 Test results :
-{'mcc': 0.2540460387593813, 'accuracy': 0.8415348888643149, 'f1_score': 0.34416475972540045}
+{'mcc': 0.24699340559002428, 'accuracy': 0.8358951675328984, 'f1_score': 0.3404444444444444}
 
-Checkpoint saved to ./checkpoints\with_oversampling\adaboost.pkl
+Checkpoint saved to ./checkpoints/adaboost.pkl

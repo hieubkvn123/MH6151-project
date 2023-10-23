@@ -1,178 +1,773 @@
 
 
 --------------------------------------------------------------------------------------
-Parameters set : {'n_estimators': 25, 'max_depth': 10}
+Parameters set : {'criterion': 'gini', 'max_depth': 5, 'n_estimators': 25}
 --------------------------------------------------------------------------------------
 Cross valiation for random_forest
- -- Split #1, performance metrics mcc = 0.59, accuracy = 0.82, f1_score = 0.71
- -- Split #2, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
- -- Split #3, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
- -- Split #4, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.69
- -- Split #5, performance metrics mcc = 0.59, accuracy = 0.82, f1_score = 0.70
+ -- Split #1, performance metrics mcc = 0.50, accuracy = 0.79, f1_score = 0.62
+ -- Split #2, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.64
+ -- Split #3, performance metrics mcc = 0.50, accuracy = 0.79, f1_score = 0.64
+ -- Split #4, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.64
+ -- Split #5, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.65
 ======================================================================================
 Performance metrics of model random_forest
- -- mcc : Mean=0.5777, STD=0.0104
- -- accuracy : Mean=0.8186, STD=0.0043
- -- f1_score : Mean=0.6980, STD=0.0074
+ -- mcc : Mean=0.5068, STD=0.0066
+ -- accuracy : Mean=0.7906, STD=0.0025
+ -- f1_score : Mean=0.6364, STD=0.0072
 --------------------------------------------------------------------------------------
 
 
 --------------------------------------------------------------------------------------
-Parameters set : {'n_estimators': 25, 'max_depth': 20}
+Parameters set : {'criterion': 'gini', 'max_depth': 5, 'n_estimators': 50}
 --------------------------------------------------------------------------------------
 Cross valiation for random_forest
- -- Split #1, performance metrics mcc = 0.89, accuracy = 0.95, f1_score = 0.93
- -- Split #2, performance metrics mcc = 0.88, accuracy = 0.95, f1_score = 0.92
- -- Split #3, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
- -- Split #4, performance metrics mcc = 0.88, accuracy = 0.95, f1_score = 0.92
- -- Split #5, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
+ -- Split #1, performance metrics mcc = 0.52, accuracy = 0.80, f1_score = 0.65
+ -- Split #2, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.63
+ -- Split #3, performance metrics mcc = 0.49, accuracy = 0.78, f1_score = 0.63
+ -- Split #4, performance metrics mcc = 0.50, accuracy = 0.79, f1_score = 0.63
+ -- Split #5, performance metrics mcc = 0.52, accuracy = 0.80, f1_score = 0.65
 ======================================================================================
 Performance metrics of model random_forest
- -- mcc : Mean=0.8778, STD=0.0078
- -- accuracy : Mean=0.9449, STD=0.0033
- -- f1_score : Mean=0.9191, STD=0.0052
+ -- mcc : Mean=0.5095, STD=0.0127
+ -- accuracy : Mean=0.7917, STD=0.0052
+ -- f1_score : Mean=0.6375, STD=0.0104
 --------------------------------------------------------------------------------------
 
 
 --------------------------------------------------------------------------------------
-Parameters set : {'n_estimators': 50, 'max_depth': 10}
+Parameters set : {'criterion': 'gini', 'max_depth': 5, 'n_estimators': 75}
 --------------------------------------------------------------------------------------
 Cross valiation for random_forest
- -- Split #1, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.69
- -- Split #2, performance metrics mcc = 0.59, accuracy = 0.82, f1_score = 0.70
- -- Split #3, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.70
- -- Split #4, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.69
- -- Split #5, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+ -- Split #1, performance metrics mcc = 0.50, accuracy = 0.79, f1_score = 0.64
+ -- Split #2, performance metrics mcc = 0.52, accuracy = 0.79, f1_score = 0.64
+ -- Split #3, performance metrics mcc = 0.50, accuracy = 0.79, f1_score = 0.63
+ -- Split #4, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.64
+ -- Split #5, performance metrics mcc = 0.49, accuracy = 0.79, f1_score = 0.63
 ======================================================================================
 Performance metrics of model random_forest
- -- mcc : Mean=0.5716, STD=0.0093
- -- accuracy : Mean=0.8161, STD=0.0039
- -- f1_score : Mean=0.6931, STD=0.0067
+ -- mcc : Mean=0.5045, STD=0.0083
+ -- accuracy : Mean=0.7896, STD=0.0034
+ -- f1_score : Mean=0.6350, STD=0.0049
 --------------------------------------------------------------------------------------
 
 
 --------------------------------------------------------------------------------------
-Parameters set : {'n_estimators': 50, 'max_depth': 20}
+Parameters set : {'criterion': 'gini', 'max_depth': 5, 'n_estimators': 100}
 --------------------------------------------------------------------------------------
 Cross valiation for random_forest
- -- Split #1, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
- -- Split #2, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.92
- -- Split #3, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
- -- Split #4, performance metrics mcc = 0.88, accuracy = 0.94, f1_score = 0.92
- -- Split #5, performance metrics mcc = 0.88, accuracy = 0.95, f1_score = 0.92
+ -- Split #1, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.64
+ -- Split #2, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.63
+ -- Split #3, performance metrics mcc = 0.52, accuracy = 0.80, f1_score = 0.65
+ -- Split #4, performance metrics mcc = 0.52, accuracy = 0.79, f1_score = 0.64
+ -- Split #5, performance metrics mcc = 0.50, accuracy = 0.79, f1_score = 0.63
 ======================================================================================
 Performance metrics of model random_forest
- -- mcc : Mean=0.8698, STD=0.0105
- -- accuracy : Mean=0.9412, STD=0.0047
- -- f1_score : Mean=0.9138, STD=0.0069
+ -- mcc : Mean=0.5113, STD=0.0089
+ -- accuracy : Mean=0.7925, STD=0.0035
+ -- f1_score : Mean=0.6389, STD=0.0089
 --------------------------------------------------------------------------------------
 
 
 --------------------------------------------------------------------------------------
-Parameters set : {'n_estimators': 75, 'max_depth': 10}
+Parameters set : {'criterion': 'gini', 'max_depth': 5, 'n_estimators': 125}
 --------------------------------------------------------------------------------------
 Cross valiation for random_forest
- -- Split #1, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.69
- -- Split #2, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.70
- -- Split #3, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
- -- Split #4, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
- -- Split #5, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
+ -- Split #1, performance metrics mcc = 0.52, accuracy = 0.80, f1_score = 0.64
+ -- Split #2, performance metrics mcc = 0.50, accuracy = 0.79, f1_score = 0.63
+ -- Split #3, performance metrics mcc = 0.52, accuracy = 0.79, f1_score = 0.64
+ -- Split #4, performance metrics mcc = 0.49, accuracy = 0.79, f1_score = 0.63
+ -- Split #5, performance metrics mcc = 0.50, accuracy = 0.79, f1_score = 0.63
 ======================================================================================
 Performance metrics of model random_forest
- -- mcc : Mean=0.5685, STD=0.0072
- -- accuracy : Mean=0.8147, STD=0.0030
- -- f1_score : Mean=0.6919, STD=0.0053
+ -- mcc : Mean=0.5062, STD=0.0106
+ -- accuracy : Mean=0.7905, STD=0.0042
+ -- f1_score : Mean=0.6332, STD=0.0084
 --------------------------------------------------------------------------------------
 
 
 --------------------------------------------------------------------------------------
-Parameters set : {'n_estimators': 75, 'max_depth': 20}
+Parameters set : {'criterion': 'gini', 'max_depth': 10, 'n_estimators': 25}
 --------------------------------------------------------------------------------------
 Cross valiation for random_forest
- -- Split #1, performance metrics mcc = 0.89, accuracy = 0.95, f1_score = 0.92
- -- Split #2, performance metrics mcc = 0.89, accuracy = 0.95, f1_score = 0.92
- -- Split #3, performance metrics mcc = 0.88, accuracy = 0.94, f1_score = 0.92
- -- Split #4, performance metrics mcc = 0.89, accuracy = 0.95, f1_score = 0.93
- -- Split #5, performance metrics mcc = 0.89, accuracy = 0.95, f1_score = 0.93
+ -- Split #1, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+ -- Split #2, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.69
+ -- Split #3, performance metrics mcc = 0.59, accuracy = 0.83, f1_score = 0.71
+ -- Split #4, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.69
+ -- Split #5, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
 ======================================================================================
 Performance metrics of model random_forest
- -- mcc : Mean=0.8870, STD=0.0053
- -- accuracy : Mean=0.9489, STD=0.0025
- -- f1_score : Mean=0.9252, STD=0.0035
+ -- mcc : Mean=0.5688, STD=0.0156
+ -- accuracy : Mean=0.8152, STD=0.0064
+ -- f1_score : Mean=0.6882, STD=0.0120
 --------------------------------------------------------------------------------------
 
 
 --------------------------------------------------------------------------------------
-Parameters set : {'n_estimators': 100, 'max_depth': 10}
+Parameters set : {'criterion': 'gini', 'max_depth': 10, 'n_estimators': 50}
 --------------------------------------------------------------------------------------
 Cross valiation for random_forest
- -- Split #1, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.69
- -- Split #2, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.69
- -- Split #3, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #1, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
+ -- Split #2, performance metrics mcc = 0.59, accuracy = 0.82, f1_score = 0.71
+ -- Split #3, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.69
  -- Split #4, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
- -- Split #5, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
+ -- Split #5, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.68
 ======================================================================================
 Performance metrics of model random_forest
- -- mcc : Mean=0.5698, STD=0.0081
- -- accuracy : Mean=0.8153, STD=0.0033
- -- f1_score : Mean=0.6919, STD=0.0067
+ -- mcc : Mean=0.5787, STD=0.0079
+ -- accuracy : Mean=0.8193, STD=0.0032
+ -- f1_score : Mean=0.6950, STD=0.0068
 --------------------------------------------------------------------------------------
 
 
 --------------------------------------------------------------------------------------
-Parameters set : {'n_estimators': 100, 'max_depth': 20}
+Parameters set : {'criterion': 'gini', 'max_depth': 10, 'n_estimators': 75}
 --------------------------------------------------------------------------------------
 Cross valiation for random_forest
- -- Split #1, performance metrics mcc = 0.88, accuracy = 0.94, f1_score = 0.92
- -- Split #2, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.92
+ -- Split #1, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.69
+ -- Split #2, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+ -- Split #3, performance metrics mcc = 0.59, accuracy = 0.82, f1_score = 0.70
+ -- Split #4, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #5, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.69
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5748, STD=0.0078
+ -- accuracy : Mean=0.8177, STD=0.0031
+ -- f1_score : Mean=0.6919, STD=0.0069
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'gini', 'max_depth': 10, 'n_estimators': 100}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+ -- Split #2, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.69
+ -- Split #3, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
+ -- Split #4, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.69
+ -- Split #5, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.69
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5692, STD=0.0055
+ -- accuracy : Mean=0.8153, STD=0.0022
+ -- f1_score : Mean=0.6897, STD=0.0047
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'gini', 'max_depth': 10, 'n_estimators': 125}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+ -- Split #2, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.68
+ -- Split #3, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
+ -- Split #4, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.69
+ -- Split #5, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.67
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5707, STD=0.0104
+ -- accuracy : Mean=0.8161, STD=0.0042
+ -- f1_score : Mean=0.6881, STD=0.0086
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'gini', 'max_depth': 20, 'n_estimators': 25}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.88, accuracy = 0.95, f1_score = 0.92
+ -- Split #2, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
  -- Split #3, performance metrics mcc = 0.89, accuracy = 0.95, f1_score = 0.93
+ -- Split #4, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
+ -- Split #5, performance metrics mcc = 0.88, accuracy = 0.94, f1_score = 0.92
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.8774, STD=0.0073
+ -- accuracy : Mean=0.9447, STD=0.0032
+ -- f1_score : Mean=0.9188, STD=0.0049
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'gini', 'max_depth': 20, 'n_estimators': 50}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.92
+ -- Split #2, performance metrics mcc = 0.88, accuracy = 0.95, f1_score = 0.92
+ -- Split #3, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.92
  -- Split #4, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.92
  -- Split #5, performance metrics mcc = 0.88, accuracy = 0.95, f1_score = 0.92
 ======================================================================================
 Performance metrics of model random_forest
- -- mcc : Mean=0.8794, STD=0.0074
- -- accuracy : Mean=0.9456, STD=0.0032
- -- f1_score : Mean=0.9201, STD=0.0049
+ -- mcc : Mean=0.8752, STD=0.0028
+ -- accuracy : Mean=0.9440, STD=0.0013
+ -- f1_score : Mean=0.9173, STD=0.0019
 --------------------------------------------------------------------------------------
 
 
 --------------------------------------------------------------------------------------
-Parameters set : {'n_estimators': 125, 'max_depth': 10}
+Parameters set : {'criterion': 'gini', 'max_depth': 20, 'n_estimators': 75}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.91
+ -- Split #2, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.92
+ -- Split #3, performance metrics mcc = 0.89, accuracy = 0.95, f1_score = 0.93
+ -- Split #4, performance metrics mcc = 0.89, accuracy = 0.95, f1_score = 0.93
+ -- Split #5, performance metrics mcc = 0.88, accuracy = 0.94, f1_score = 0.92
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.8796, STD=0.0115
+ -- accuracy : Mean=0.9457, STD=0.0051
+ -- f1_score : Mean=0.9203, STD=0.0076
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'gini', 'max_depth': 20, 'n_estimators': 100}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.88, accuracy = 0.94, f1_score = 0.92
+ -- Split #2, performance metrics mcc = 0.89, accuracy = 0.95, f1_score = 0.93
+ -- Split #3, performance metrics mcc = 0.88, accuracy = 0.95, f1_score = 0.92
+ -- Split #4, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.92
+ -- Split #5, performance metrics mcc = 0.88, accuracy = 0.94, f1_score = 0.92
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.8792, STD=0.0074
+ -- accuracy : Mean=0.9457, STD=0.0031
+ -- f1_score : Mean=0.9199, STD=0.0050
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'gini', 'max_depth': 20, 'n_estimators': 125}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.88, accuracy = 0.95, f1_score = 0.92
+ -- Split #2, performance metrics mcc = 0.88, accuracy = 0.95, f1_score = 0.92
+ -- Split #3, performance metrics mcc = 0.89, accuracy = 0.95, f1_score = 0.93
+ -- Split #4, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
+ -- Split #5, performance metrics mcc = 0.88, accuracy = 0.94, f1_score = 0.92
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.8801, STD=0.0057
+ -- accuracy : Mean=0.9460, STD=0.0024
+ -- f1_score : Mean=0.9206, STD=0.0038
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'entropy', 'max_depth': 5, 'n_estimators': 25}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.66
+ -- Split #2, performance metrics mcc = 0.52, accuracy = 0.80, f1_score = 0.64
+ -- Split #3, performance metrics mcc = 0.50, accuracy = 0.79, f1_score = 0.63
+ -- Split #4, performance metrics mcc = 0.50, accuracy = 0.79, f1_score = 0.63
+ -- Split #5, performance metrics mcc = 0.50, accuracy = 0.79, f1_score = 0.63
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5120, STD=0.0157
+ -- accuracy : Mean=0.7927, STD=0.0064
+ -- f1_score : Mean=0.6391, STD=0.0109
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'entropy', 'max_depth': 5, 'n_estimators': 50}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.52, accuracy = 0.80, f1_score = 0.65
+ -- Split #2, performance metrics mcc = 0.52, accuracy = 0.80, f1_score = 0.65
+ -- Split #3, performance metrics mcc = 0.53, accuracy = 0.80, f1_score = 0.65
+ -- Split #4, performance metrics mcc = 0.52, accuracy = 0.80, f1_score = 0.64
+ -- Split #5, performance metrics mcc = 0.52, accuracy = 0.80, f1_score = 0.65
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5241, STD=0.0036
+ -- accuracy : Mean=0.7975, STD=0.0015
+ -- f1_score : Mean=0.6491, STD=0.0037
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'entropy', 'max_depth': 5, 'n_estimators': 75}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.64
+ -- Split #2, performance metrics mcc = 0.52, accuracy = 0.79, f1_score = 0.64
+ -- Split #3, performance metrics mcc = 0.52, accuracy = 0.79, f1_score = 0.64
+ -- Split #4, performance metrics mcc = 0.52, accuracy = 0.80, f1_score = 0.64
+ -- Split #5, performance metrics mcc = 0.48, accuracy = 0.78, f1_score = 0.62
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5096, STD=0.0129
+ -- accuracy : Mean=0.7917, STD=0.0054
+ -- f1_score : Mean=0.6379, STD=0.0078
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'entropy', 'max_depth': 5, 'n_estimators': 100}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.54, accuracy = 0.81, f1_score = 0.66
+ -- Split #2, performance metrics mcc = 0.48, accuracy = 0.78, f1_score = 0.62
+ -- Split #3, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.64
+ -- Split #4, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.64
+ -- Split #5, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.63
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5092, STD=0.0189
+ -- accuracy : Mean=0.7917, STD=0.0075
+ -- f1_score : Mean=0.6362, STD=0.0149
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'entropy', 'max_depth': 5, 'n_estimators': 125}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.52, accuracy = 0.80, f1_score = 0.65
+ -- Split #2, performance metrics mcc = 0.48, accuracy = 0.78, f1_score = 0.62
+ -- Split #3, performance metrics mcc = 0.52, accuracy = 0.80, f1_score = 0.65
+ -- Split #4, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.64
+ -- Split #5, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.64
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5092, STD=0.0139
+ -- accuracy : Mean=0.7915, STD=0.0058
+ -- f1_score : Mean=0.6385, STD=0.0085
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'entropy', 'max_depth': 10, 'n_estimators': 25}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #2, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+ -- Split #3, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #4, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #5, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.67
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5527, STD=0.0061
+ -- accuracy : Mean=0.8088, STD=0.0025
+ -- f1_score : Mean=0.6748, STD=0.0049
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'entropy', 'max_depth': 10, 'n_estimators': 50}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.69
+ -- Split #2, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+ -- Split #3, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #4, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.67
+ -- Split #5, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5632, STD=0.0093
+ -- accuracy : Mean=0.8127, STD=0.0038
+ -- f1_score : Mean=0.6864, STD=0.0076
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'entropy', 'max_depth': 10, 'n_estimators': 75}
 --------------------------------------------------------------------------------------
 Cross valiation for random_forest
  -- Split #1, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.69
- -- Split #2, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.69
- -- Split #3, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
+ -- Split #2, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
+ -- Split #3, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.69
  -- Split #4, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
  -- Split #5, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
 ======================================================================================
 Performance metrics of model random_forest
- -- mcc : Mean=0.5722, STD=0.0056
- -- accuracy : Mean=0.8164, STD=0.0023
- -- f1_score : Mean=0.6926, STD=0.0037
+ -- mcc : Mean=0.5715, STD=0.0051
+ -- accuracy : Mean=0.8162, STD=0.0021
+ -- f1_score : Mean=0.6920, STD=0.0041
 --------------------------------------------------------------------------------------
 
 
 --------------------------------------------------------------------------------------
-Parameters set : {'n_estimators': 125, 'max_depth': 20}
+Parameters set : {'criterion': 'entropy', 'max_depth': 10, 'n_estimators': 100}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.67
+ -- Split #2, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+ -- Split #3, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
+ -- Split #4, performance metrics mcc = 0.54, accuracy = 0.80, f1_score = 0.66
+ -- Split #5, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.67
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5577, STD=0.0181
+ -- accuracy : Mean=0.8108, STD=0.0074
+ -- f1_score : Mean=0.6796, STD=0.0138
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'entropy', 'max_depth': 10, 'n_estimators': 125}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #2, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
+ -- Split #3, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.70
+ -- Split #4, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+ -- Split #5, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.67
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5693, STD=0.0114
+ -- accuracy : Mean=0.8154, STD=0.0046
+ -- f1_score : Mean=0.6889, STD=0.0096
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'entropy', 'max_depth': 20, 'n_estimators': 25}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.91
+ -- Split #2, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
+ -- Split #3, performance metrics mcc = 0.84, accuracy = 0.93, f1_score = 0.90
+ -- Split #4, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
+ -- Split #5, performance metrics mcc = 0.84, accuracy = 0.93, f1_score = 0.90
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.8486, STD=0.0071
+ -- accuracy : Mean=0.9322, STD=0.0031
+ -- f1_score : Mean=0.8996, STD=0.0048
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'entropy', 'max_depth': 20, 'n_estimators': 50}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
+ -- Split #2, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
+ -- Split #3, performance metrics mcc = 0.84, accuracy = 0.93, f1_score = 0.89
+ -- Split #4, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.91
+ -- Split #5, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.91
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.8554, STD=0.0104
+ -- accuracy : Mean=0.9354, STD=0.0046
+ -- f1_score : Mean=0.9039, STD=0.0070
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'entropy', 'max_depth': 20, 'n_estimators': 75}
 --------------------------------------------------------------------------------------
 Cross valiation for random_forest
  -- Split #1, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
- -- Split #2, performance metrics mcc = 0.89, accuracy = 0.95, f1_score = 0.93
- -- Split #3, performance metrics mcc = 0.90, accuracy = 0.95, f1_score = 0.93
+ -- Split #2, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
+ -- Split #3, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.90
  -- Split #4, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
- -- Split #5, performance metrics mcc = 0.88, accuracy = 0.95, f1_score = 0.92
+ -- Split #5, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
 ======================================================================================
 Performance metrics of model random_forest
- -- mcc : Mean=0.8805, STD=0.0120
- -- accuracy : Mean=0.9461, STD=0.0057
- -- f1_score : Mean=0.9209, STD=0.0078
+ -- mcc : Mean=0.8609, STD=0.0091
+ -- accuracy : Mean=0.9377, STD=0.0039
+ -- f1_score : Mean=0.9077, STD=0.0062
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'entropy', 'max_depth': 20, 'n_estimators': 100}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.88, accuracy = 0.95, f1_score = 0.92
+ -- Split #2, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
+ -- Split #3, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.90
+ -- Split #4, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
+ -- Split #5, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.8690, STD=0.0081
+ -- accuracy : Mean=0.9412, STD=0.0037
+ -- f1_score : Mean=0.9131, STD=0.0053
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'entropy', 'max_depth': 20, 'n_estimators': 125}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
+ -- Split #2, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
+ -- Split #3, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
+ -- Split #4, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
+ -- Split #5, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.91
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.8602, STD=0.0064
+ -- accuracy : Mean=0.9373, STD=0.0030
+ -- f1_score : Mean=0.9073, STD=0.0042
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'log_loss', 'max_depth': 5, 'n_estimators': 25}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.52, accuracy = 0.80, f1_score = 0.65
+ -- Split #2, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.64
+ -- Split #3, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.63
+ -- Split #4, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.64
+ -- Split #5, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.64
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5111, STD=0.0063
+ -- accuracy : Mean=0.7923, STD=0.0024
+ -- f1_score : Mean=0.6395, STD=0.0070
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'log_loss', 'max_depth': 5, 'n_estimators': 50}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.64
+ -- Split #2, performance metrics mcc = 0.50, accuracy = 0.79, f1_score = 0.64
+ -- Split #3, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.64
+ -- Split #4, performance metrics mcc = 0.49, accuracy = 0.78, f1_score = 0.62
+ -- Split #5, performance metrics mcc = 0.53, accuracy = 0.80, f1_score = 0.66
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5104, STD=0.0138
+ -- accuracy : Mean=0.7920, STD=0.0055
+ -- f1_score : Mean=0.6403, STD=0.0109
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'log_loss', 'max_depth': 5, 'n_estimators': 75}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.52, accuracy = 0.79, f1_score = 0.64
+ -- Split #2, performance metrics mcc = 0.49, accuracy = 0.78, f1_score = 0.62
+ -- Split #3, performance metrics mcc = 0.50, accuracy = 0.79, f1_score = 0.63
+ -- Split #4, performance metrics mcc = 0.49, accuracy = 0.78, f1_score = 0.63
+ -- Split #5, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.64
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5006, STD=0.0118
+ -- accuracy : Mean=0.7882, STD=0.0046
+ -- f1_score : Mean=0.6309, STD=0.0107
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'log_loss', 'max_depth': 5, 'n_estimators': 100}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.64
+ -- Split #2, performance metrics mcc = 0.50, accuracy = 0.79, f1_score = 0.63
+ -- Split #3, performance metrics mcc = 0.50, accuracy = 0.79, f1_score = 0.63
+ -- Split #4, performance metrics mcc = 0.50, accuracy = 0.79, f1_score = 0.63
+ -- Split #5, performance metrics mcc = 0.53, accuracy = 0.80, f1_score = 0.65
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5090, STD=0.0125
+ -- accuracy : Mean=0.7917, STD=0.0050
+ -- f1_score : Mean=0.6354, STD=0.0104
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'log_loss', 'max_depth': 5, 'n_estimators': 125}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.53, accuracy = 0.80, f1_score = 0.66
+ -- Split #2, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.64
+ -- Split #3, performance metrics mcc = 0.47, accuracy = 0.78, f1_score = 0.62
+ -- Split #4, performance metrics mcc = 0.52, accuracy = 0.80, f1_score = 0.65
+ -- Split #5, performance metrics mcc = 0.51, accuracy = 0.79, f1_score = 0.64
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5103, STD=0.0200
+ -- accuracy : Mean=0.7917, STD=0.0081
+ -- f1_score : Mean=0.6420, STD=0.0142
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'log_loss', 'max_depth': 10, 'n_estimators': 25}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+ -- Split #2, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #3, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+ -- Split #4, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.69
+ -- Split #5, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5631, STD=0.0101
+ -- accuracy : Mean=0.8128, STD=0.0043
+ -- f1_score : Mean=0.6841, STD=0.0056
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'log_loss', 'max_depth': 10, 'n_estimators': 50}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.59, accuracy = 0.82, f1_score = 0.70
+ -- Split #2, performance metrics mcc = 0.59, accuracy = 0.82, f1_score = 0.70
+ -- Split #3, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+ -- Split #4, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.67
+ -- Split #5, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5725, STD=0.0145
+ -- accuracy : Mean=0.8168, STD=0.0060
+ -- f1_score : Mean=0.6902, STD=0.0107
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'log_loss', 'max_depth': 10, 'n_estimators': 75}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+ -- Split #2, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+ -- Split #3, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+ -- Split #4, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.67
+ -- Split #5, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5601, STD=0.0109
+ -- accuracy : Mean=0.8116, STD=0.0045
+ -- f1_score : Mean=0.6828, STD=0.0088
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'log_loss', 'max_depth': 10, 'n_estimators': 100}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.58, accuracy = 0.82, f1_score = 0.69
+ -- Split #2, performance metrics mcc = 0.55, accuracy = 0.81, f1_score = 0.68
+ -- Split #3, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+ -- Split #4, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+ -- Split #5, performance metrics mcc = 0.54, accuracy = 0.81, f1_score = 0.67
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5644, STD=0.0129
+ -- accuracy : Mean=0.8133, STD=0.0053
+ -- f1_score : Mean=0.6865, STD=0.0088
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'log_loss', 'max_depth': 10, 'n_estimators': 125}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.57, accuracy = 0.82, f1_score = 0.69
+ -- Split #2, performance metrics mcc = 0.59, accuracy = 0.82, f1_score = 0.70
+ -- Split #3, performance metrics mcc = 0.57, accuracy = 0.81, f1_score = 0.69
+ -- Split #4, performance metrics mcc = 0.59, accuracy = 0.82, f1_score = 0.71
+ -- Split #5, performance metrics mcc = 0.56, accuracy = 0.81, f1_score = 0.68
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.5758, STD=0.0107
+ -- accuracy : Mean=0.8181, STD=0.0043
+ -- f1_score : Mean=0.6930, STD=0.0093
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'log_loss', 'max_depth': 20, 'n_estimators': 25}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
+ -- Split #2, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.91
+ -- Split #3, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.91
+ -- Split #4, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
+ -- Split #5, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.91
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.8588, STD=0.0075
+ -- accuracy : Mean=0.9368, STD=0.0032
+ -- f1_score : Mean=0.9063, STD=0.0051
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'log_loss', 'max_depth': 20, 'n_estimators': 50}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
+ -- Split #2, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.90
+ -- Split #3, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
+ -- Split #4, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.91
+ -- Split #5, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.8568, STD=0.0057
+ -- accuracy : Mean=0.9360, STD=0.0027
+ -- f1_score : Mean=0.9049, STD=0.0036
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'log_loss', 'max_depth': 20, 'n_estimators': 75}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.91
+ -- Split #2, performance metrics mcc = 0.84, accuracy = 0.93, f1_score = 0.90
+ -- Split #3, performance metrics mcc = 0.84, accuracy = 0.93, f1_score = 0.90
+ -- Split #4, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.91
+ -- Split #5, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.90
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.8524, STD=0.0070
+ -- accuracy : Mean=0.9338, STD=0.0031
+ -- f1_score : Mean=0.9022, STD=0.0047
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'log_loss', 'max_depth': 20, 'n_estimators': 100}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
+ -- Split #2, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.91
+ -- Split #3, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.91
+ -- Split #4, performance metrics mcc = 0.85, accuracy = 0.93, f1_score = 0.90
+ -- Split #5, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.91
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.8568, STD=0.0055
+ -- accuracy : Mean=0.9359, STD=0.0027
+ -- f1_score : Mean=0.9050, STD=0.0035
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'criterion': 'log_loss', 'max_depth': 20, 'n_estimators': 125}
+--------------------------------------------------------------------------------------
+Cross valiation for random_forest
+ -- Split #1, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
+ -- Split #2, performance metrics mcc = 0.84, accuracy = 0.93, f1_score = 0.90
+ -- Split #3, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.91
+ -- Split #4, performance metrics mcc = 0.86, accuracy = 0.94, f1_score = 0.91
+ -- Split #5, performance metrics mcc = 0.87, accuracy = 0.94, f1_score = 0.91
+======================================================================================
+Performance metrics of model random_forest
+ -- mcc : Mean=0.8593, STD=0.0085
+ -- accuracy : Mean=0.9370, STD=0.0038
+ -- f1_score : Mean=0.9067, STD=0.0056
 --------------------------------------------------------------------------------------
 
 Best hyper-parameters set:
-{'n_estimators': 75, 'max_depth': 20}
+{'criterion': 'gini', 'max_depth': 20, 'n_estimators': 125}
 
 Test results :
-{'mcc': 0.4222428915762261, 'accuracy': 0.8885325666261197, 'f1_score': 0.4793388429752066}
+{'mcc': 0.41915290923397996, 'accuracy': 0.8867632422868517, 'f1_score': 0.47861507128309577}
 
-Checkpoint saved to ./checkpoints\with_oversampling\random_forest.pkl
+Checkpoint saved to ./checkpoints/with_oversampling/random_forest.pkl
