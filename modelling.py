@@ -12,7 +12,6 @@ from src.model_utils import *
 import src.hyperparams_opt as hyperparams_opt
 
 # Some constants
-MODEL_NAME = 'decision_tree'
 CHECKPOINT_FOLDER = './checkpoints'
 if(not os.path.exists(CHECKPOINT_FOLDER)):
     pathlib.Path(CHECKPOINT_FOLDER).mkdir(parents=True, exist_ok=True)
@@ -20,6 +19,9 @@ if(not os.path.exists(CHECKPOINT_FOLDER)):
 if __name__ == '__main__':
     ### Argument parser ###
     parser = ArgumentParser()
+    parser.add_argument('--model_name', type=str, required=False, 
+            choices=['decision_tree', 'random_forest', 'gradient_boost_tree', 'adaboost'],
+            help='Model to start training', default='decision_tree')
     parser.add_argument('--output_file', type=str, required=False, help='Path to output file')
     parser.add_argument('--oversampling', required=False, action='store_true', help='Oversampling or not')
     args = vars(parser.parse_args())
@@ -58,10 +60,10 @@ if __name__ == '__main__':
 
     # Prepare for hyper-parameters tuning
     metrics = hyperparams_opt.metrics
-    model_class = hyperparams_opt.models[MODEL_NAME]['model_class']
-    hyperparams = hyperparams_opt.models[MODEL_NAME]['hyperparams']
-    ckpt_filename = hyperparams_opt.models[MODEL_NAME]['ckpt_filename']
-    results, best_param = hyperparams_tuning(X_train, Y_train, model_class, hyperparams, metrics, target_metric='mcc', model_name=MODEL_NAME)
+    model_class = hyperparams_opt.models[args['model_name']]['model_class']
+    hyperparams = hyperparams_opt.models[args['model_name']]['hyperparams']
+    ckpt_filename = hyperparams_opt.models[args['model_name']]['ckpt_filename']
+    results, best_param = hyperparams_tuning(X_train, Y_train, model_class, hyperparams, metrics, target_metric='mcc', model_name=args['model_name'])
     print(f'\nBest hyper-parameters set:\n{best_param}')
 
     ### 4. Testing ###
