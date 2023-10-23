@@ -28,7 +28,7 @@ models = {
         },
         'ckpt_filename' : 'gradient_boost_tree.pkl'
     },
-    'ada_boost' : {
+    'adaboost' : {
         'model_class' : AdaBoostClassifier,
         'hyperparams' : {
             'estimator' : [DecisionTreeClassifier()],
