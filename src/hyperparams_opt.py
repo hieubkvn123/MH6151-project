@@ -1,3 +1,4 @@
+import xgboost as xgb
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier, AdaBoostClassifier
 from sklearn.metrics import matthews_corrcoef, accuracy_score, f1_score
@@ -38,11 +39,20 @@ models = {
             'learning_rate' : [0.1, 0.2, 0.5]
         },
         'ckpt_filename' : 'adaboost.pkl'
+    },
+    'xgboost' : {
+        'model_class' : xgb.XGBClassifier,
+        'hyperparams' : {
+            'booster' : ['gbtree', 'gblinear', 'dart'],
+            'max_depth' : [5, 10, 20],
+            'eta' : [0.2, 0.3, 0.5]
+        },
+        'ckpt_filename' : 'xgboost.pkl'
     }
 }
 
 metrics = {
     'mcc' : matthews_corrcoef,
     'accuracy' : accuracy_score,
-    'f1_score' : lambda y, pred : f1_score(y, pred, pos_label='yes')
+    'f1_score' : f1_score 
 }

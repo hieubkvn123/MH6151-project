@@ -2,6 +2,7 @@ import os
 import sys
 import pickle
 import pathlib
+import warnings
 import pandas as pd
 from collections import Counter
 from argparse import ArgumentParser
@@ -10,6 +11,7 @@ from imblearn.over_sampling import RandomOverSampler
 from src.preproc import *
 from src.model_utils import *
 import src.hyperparams_opt as hyperparams_opt
+warnings.filterwarnings('ignore')
 
 # Some constants
 CHECKPOINT_FOLDER = './checkpoints'
@@ -20,7 +22,7 @@ if __name__ == '__main__':
     ### Argument parser ###
     parser = ArgumentParser()
     parser.add_argument('--model_name', type=str, required=False, 
-            choices=['decision_tree', 'random_forest', 'gradient_boost_tree', 'adaboost'],
+            choices=['decision_tree', 'random_forest', 'gradient_boost_tree', 'adaboost', 'xgboost'],
             help='Model to start training', default='decision_tree')
     parser.add_argument('--output_file', type=str, required=False, help='Path to output file')
     parser.add_argument('--oversampling', required=False, action='store_true', help='Oversampling or not')

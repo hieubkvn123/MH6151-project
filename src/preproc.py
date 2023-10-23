@@ -63,6 +63,7 @@ def preproc_df_for_tree_algos(df):
     df['default'] = df['default'].apply(preproc_binary)
     df['housing'] = df['housing'].apply(preproc_binary)
     df['loan'] = df['loan'].apply(preproc_binary)
+    df['subscription'] = df['subscription'].apply(preproc_binary)
 
     # Save label encoders
     with open(encoders['job'], 'wb') as f:
