@@ -4,16 +4,16 @@
 Parameters set : {'booster': 'gbtree', 'max_depth': 5, 'eta': 0.2}
 --------------------------------------------------------------------------------------
 Cross valiation for xgboost
- -- Split #1, performance metrics mcc = 0.37, accuracy = 0.90, f1_score = 0.38
- -- Split #2, performance metrics mcc = 0.39, accuracy = 0.90, f1_score = 0.39
- -- Split #3, performance metrics mcc = 0.38, accuracy = 0.90, f1_score = 0.40
- -- Split #4, performance metrics mcc = 0.38, accuracy = 0.90, f1_score = 0.39
- -- Split #5, performance metrics mcc = 0.37, accuracy = 0.90, f1_score = 0.38
+ -- Split #1, performance metrics mcc = 0.35, accuracy = 0.89, f1_score = 0.37
+ -- Split #2, performance metrics mcc = 0.35, accuracy = 0.89, f1_score = 0.37
+ -- Split #3, performance metrics mcc = 0.39, accuracy = 0.90, f1_score = 0.42
+ -- Split #4, performance metrics mcc = 0.36, accuracy = 0.90, f1_score = 0.37
+ -- Split #5, performance metrics mcc = 0.39, accuracy = 0.90, f1_score = 0.39
 ======================================================================================
 Performance metrics of model xgboost
- -- mcc : Mean=0.3792, STD=0.0066
- -- accuracy : Mean=0.8981, STD=0.0010
- -- f1_score : Mean=0.3909, STD=0.0056
+ -- mcc : Mean=0.3686, STD=0.0177
+ -- accuracy : Mean=0.8964, STD=0.0024
+ -- f1_score : Mean=0.3832, STD=0.0187
 --------------------------------------------------------------------------------------
 
 
@@ -21,16 +21,16 @@ Performance metrics of model xgboost
 Parameters set : {'booster': 'gbtree', 'max_depth': 5, 'eta': 0.3}
 --------------------------------------------------------------------------------------
 Cross valiation for xgboost
- -- Split #1, performance metrics mcc = 0.40, accuracy = 0.90, f1_score = 0.42
- -- Split #2, performance metrics mcc = 0.38, accuracy = 0.90, f1_score = 0.40
- -- Split #3, performance metrics mcc = 0.38, accuracy = 0.89, f1_score = 0.41
- -- Split #4, performance metrics mcc = 0.35, accuracy = 0.89, f1_score = 0.37
- -- Split #5, performance metrics mcc = 0.37, accuracy = 0.90, f1_score = 0.40
+ -- Split #1, performance metrics mcc = 0.37, accuracy = 0.90, f1_score = 0.39
+ -- Split #2, performance metrics mcc = 0.38, accuracy = 0.90, f1_score = 0.39
+ -- Split #3, performance metrics mcc = 0.40, accuracy = 0.90, f1_score = 0.43
+ -- Split #4, performance metrics mcc = 0.39, accuracy = 0.90, f1_score = 0.40
+ -- Split #5, performance metrics mcc = 0.36, accuracy = 0.90, f1_score = 0.38
 ======================================================================================
 Performance metrics of model xgboost
- -- mcc : Mean=0.3742, STD=0.0168
- -- accuracy : Mean=0.8958, STD=0.0024
- -- f1_score : Mean=0.3968, STD=0.0158
+ -- mcc : Mean=0.3805, STD=0.0154
+ -- accuracy : Mean=0.8975, STD=0.0019
+ -- f1_score : Mean=0.3979, STD=0.0161
 --------------------------------------------------------------------------------------
 
 
@@ -38,16 +38,16 @@ Performance metrics of model xgboost
 Parameters set : {'booster': 'gbtree', 'max_depth': 5, 'eta': 0.5}
 --------------------------------------------------------------------------------------
 Cross valiation for xgboost
- -- Split #1, performance metrics mcc = 0.40, accuracy = 0.90, f1_score = 0.43
- -- Split #2, performance metrics mcc = 0.39, accuracy = 0.90, f1_score = 0.42
- -- Split #3, performance metrics mcc = 0.39, accuracy = 0.90, f1_score = 0.42
- -- Split #4, performance metrics mcc = 0.41, accuracy = 0.90, f1_score = 0.44
- -- Split #5, performance metrics mcc = 0.33, accuracy = 0.89, f1_score = 0.35
+ -- Split #1, performance metrics mcc = 0.35, accuracy = 0.89, f1_score = 0.39
+ -- Split #2, performance metrics mcc = 0.37, accuracy = 0.89, f1_score = 0.39
+ -- Split #3, performance metrics mcc = 0.34, accuracy = 0.89, f1_score = 0.37
+ -- Split #4, performance metrics mcc = 0.37, accuracy = 0.89, f1_score = 0.40
+ -- Split #5, performance metrics mcc = 0.28, accuracy = 0.88, f1_score = 0.32
 ======================================================================================
 Performance metrics of model xgboost
- -- mcc : Mean=0.3834, STD=0.0291
- -- accuracy : Mean=0.8955, STD=0.0032
- -- f1_score : Mean=0.4136, STD=0.0310
+ -- mcc : Mean=0.3435, STD=0.0337
+ -- accuracy : Mean=0.8901, STD=0.0054
+ -- f1_score : Mean=0.3756, STD=0.0289
 --------------------------------------------------------------------------------------
 
 
@@ -55,16 +55,16 @@ Performance metrics of model xgboost
 Parameters set : {'booster': 'gbtree', 'max_depth': 10, 'eta': 0.2}
 --------------------------------------------------------------------------------------
 Cross valiation for xgboost
- -- Split #1, performance metrics mcc = 0.36, accuracy = 0.89, f1_score = 0.39
- -- Split #2, performance metrics mcc = 0.35, accuracy = 0.89, f1_score = 0.38
- -- Split #3, performance metrics mcc = 0.35, accuracy = 0.89, f1_score = 0.38
- -- Split #4, performance metrics mcc = 0.37, accuracy = 0.89, f1_score = 0.40
- -- Split #5, performance metrics mcc = 0.38, accuracy = 0.89, f1_score = 0.41
+ -- Split #1, performance metrics mcc = 0.34, accuracy = 0.89, f1_score = 0.37
+ -- Split #2, performance metrics mcc = 0.34, accuracy = 0.89, f1_score = 0.37
+ -- Split #3, performance metrics mcc = 0.37, accuracy = 0.89, f1_score = 0.40
+ -- Split #4, performance metrics mcc = 0.33, accuracy = 0.89, f1_score = 0.35
+ -- Split #5, performance metrics mcc = 0.39, accuracy = 0.90, f1_score = 0.42
 ======================================================================================
 Performance metrics of model xgboost
- -- mcc : Mean=0.3610, STD=0.0100
- -- accuracy : Mean=0.8924, STD=0.0013
- -- f1_score : Mean=0.3925, STD=0.0117
+ -- mcc : Mean=0.3532, STD=0.0224
+ -- accuracy : Mean=0.8923, STD=0.0024
+ -- f1_score : Mean=0.3809, STD=0.0244
 --------------------------------------------------------------------------------------
 
 
@@ -72,16 +72,16 @@ Performance metrics of model xgboost
 Parameters set : {'booster': 'gbtree', 'max_depth': 10, 'eta': 0.3}
 --------------------------------------------------------------------------------------
 Cross valiation for xgboost
- -- Split #1, performance metrics mcc = 0.35, accuracy = 0.89, f1_score = 0.39
- -- Split #2, performance metrics mcc = 0.38, accuracy = 0.89, f1_score = 0.41
- -- Split #3, performance metrics mcc = 0.38, accuracy = 0.89, f1_score = 0.42
+ -- Split #1, performance metrics mcc = 0.40, accuracy = 0.90, f1_score = 0.44
+ -- Split #2, performance metrics mcc = 0.36, accuracy = 0.89, f1_score = 0.40
+ -- Split #3, performance metrics mcc = 0.39, accuracy = 0.90, f1_score = 0.41
  -- Split #4, performance metrics mcc = 0.37, accuracy = 0.89, f1_score = 0.41
  -- Split #5, performance metrics mcc = 0.38, accuracy = 0.89, f1_score = 0.42
 ======================================================================================
 Performance metrics of model xgboost
- -- mcc : Mean=0.3744, STD=0.0112
- -- accuracy : Mean=0.8927, STD=0.0012
- -- f1_score : Mean=0.4114, STD=0.0139
+ -- mcc : Mean=0.3794, STD=0.0135
+ -- accuracy : Mean=0.8937, STD=0.0023
+ -- f1_score : Mean=0.4146, STD=0.0130
 --------------------------------------------------------------------------------------
 
 
@@ -89,16 +89,16 @@ Performance metrics of model xgboost
 Parameters set : {'booster': 'gbtree', 'max_depth': 10, 'eta': 0.5}
 --------------------------------------------------------------------------------------
 Cross valiation for xgboost
- -- Split #1, performance metrics mcc = 0.34, accuracy = 0.89, f1_score = 0.38
- -- Split #2, performance metrics mcc = 0.37, accuracy = 0.89, f1_score = 0.41
- -- Split #3, performance metrics mcc = 0.36, accuracy = 0.89, f1_score = 0.40
- -- Split #4, performance metrics mcc = 0.35, accuracy = 0.89, f1_score = 0.39
- -- Split #5, performance metrics mcc = 0.35, accuracy = 0.89, f1_score = 0.40
+ -- Split #1, performance metrics mcc = 0.37, accuracy = 0.89, f1_score = 0.41
+ -- Split #2, performance metrics mcc = 0.36, accuracy = 0.89, f1_score = 0.41
+ -- Split #3, performance metrics mcc = 0.34, accuracy = 0.89, f1_score = 0.39
+ -- Split #4, performance metrics mcc = 0.35, accuracy = 0.89, f1_score = 0.40
+ -- Split #5, performance metrics mcc = 0.32, accuracy = 0.88, f1_score = 0.36
 ======================================================================================
 Performance metrics of model xgboost
- -- mcc : Mean=0.3534, STD=0.0077
- -- accuracy : Mean=0.8879, STD=0.0013
- -- f1_score : Mean=0.3977, STD=0.0103
+ -- mcc : Mean=0.3502, STD=0.0185
+ -- accuracy : Mean=0.8873, STD=0.0025
+ -- f1_score : Mean=0.3952, STD=0.0190
 --------------------------------------------------------------------------------------
 
 
@@ -106,7 +106,37 @@ Performance metrics of model xgboost
 Parameters set : {'booster': 'gbtree', 'max_depth': 20, 'eta': 0.2}
 --------------------------------------------------------------------------------------
 Cross valiation for xgboost
- -- Split #1, performance metrics mcc = 0.38, accuracy = 0.89, f1_score = 0.41
- -- Split #2, performance metrics mcc = 0.38, accuracy = 0.89, f1_score = 0.42
- -- Split #3, performance metrics mcc = 0.38, accuracy = 0.89, f1_score = 0.41
- -- Split #4, performance metrics mcc = 0.37, accuracy = 0.89, f1_score = 0.40
+ -- Split #1, performance metrics mcc = 0.42, accuracy = 0.90, f1_score = 0.46
+ -- Split #2, performance metrics mcc = 0.37, accuracy = 0.89, f1_score = 0.41
+ -- Split #3, performance metrics mcc = 0.39, accuracy = 0.89, f1_score = 0.43
+ -- Split #4, performance metrics mcc = 0.35, accuracy = 0.89, f1_score = 0.39
+ -- Split #5, performance metrics mcc = 0.38, accuracy = 0.89, f1_score = 0.42
+======================================================================================
+Performance metrics of model xgboost
+ -- mcc : Mean=0.3824, STD=0.0248
+ -- accuracy : Mean=0.8931, STD=0.0038
+ -- f1_score : Mean=0.4217, STD=0.0225
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'booster': 'gbtree', 'max_depth': 20, 'eta': 0.3}
+--------------------------------------------------------------------------------------
+Cross valiation for xgboost
+ -- Split #1, performance metrics mcc = 0.39, accuracy = 0.89, f1_score = 0.43
+ -- Split #2, performance metrics mcc = 0.36, accuracy = 0.89, f1_score = 0.40
+ -- Split #3, performance metrics mcc = 0.40, accuracy = 0.89, f1_score = 0.43
+ -- Split #4, performance metrics mcc = 0.38, accuracy = 0.89, f1_score = 0.42
+ -- Split #5, performance metrics mcc = 0.36, accuracy = 0.89, f1_score = 0.40
+======================================================================================
+Performance metrics of model xgboost
+ -- mcc : Mean=0.3787, STD=0.0148
+ -- accuracy : Mean=0.8929, STD=0.0021
+ -- f1_score : Mean=0.4170, STD=0.0144
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'booster': 'gbtree', 'max_depth': 20, 'eta': 0.5}
+--------------------------------------------------------------------------------------
+Cross valiation for xgboost
