@@ -3,28 +3,30 @@ from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier,
 from sklearn.metrics import matthews_corrcoef, accuracy_score, f1_score
 
 models = {
-    'random_forest' : {
-        'model_class' : RandomForestClassifier,
-        'hyperparams' : {
-            'n_estimators' : [25 * i for i in range(1, 6)],
-            'max_depth' : [10, 20]
-        },
-        'ckpt_filename' : 'random_forest.pkl'
-    },
     'decision_tree' : {
         'model_class' : DecisionTreeClassifier,
         'hyperparams' : {
             'criterion' : ['gini', 'entropy'],
-            'max_depth' : [10, 20],
+            'max_depth' : [5, 10, 20],
             'min_samples_split' : [2, 5, 10]
         },
         'ckpt_filename' : 'decision_tree.pkl'
+    },
+    'random_forest' : {
+        'model_class' : RandomForestClassifier,
+        'hyperparams' : {
+            'criterion' : ['gini', 'entropy', 'log_loss'],
+            'max_depth' : [5, 10, 20],
+            'n_estimators' : [25 * i for i in range(1, 6)],
+        },
+        'ckpt_filename' : 'random_forest.pkl'
     },
     'gradient_boost_tree' : {
         'model_class' : GradientBoostingClassifier,
         'hyperparams' : {
             'learning_rate' : [0.1, 0.2, 0.5],
             'n_estimators' : [25 * i for i in range(1, 6)],
+            'min_samples_split' : [2, 5, 10]
         },
         'ckpt_filename' : 'gradient_boost_tree.pkl'
     },
