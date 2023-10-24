@@ -91,4 +91,4 @@ if __name__ == '__main__':
         with open(ckpt_file, 'rb') as f:
             tuned_and_os_model = pickle.load(f)
         results = test(tuned_and_os_model, X_test, Y_test)
-        print(f' -- Test results for tuned model :\n{results}')
+        print(f' -- Test results for tuned + oversampled model :\n{results}')
