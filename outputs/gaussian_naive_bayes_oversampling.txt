@@ -1,0 +1,161 @@
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'var_smoothing': 1e-09}
+--------------------------------------------------------------------------------------
+Cross valiation for gaussian_naive_bayes
+ -- Split #1, performance metrics mcc = 0.40, accuracy = 0.73, f1_score = 0.61
+ -- Split #2, performance metrics mcc = 0.40, accuracy = 0.73, f1_score = 0.60
+ -- Split #3, performance metrics mcc = 0.40, accuracy = 0.73, f1_score = 0.60
+ -- Split #4, performance metrics mcc = 0.37, accuracy = 0.72, f1_score = 0.58
+ -- Split #5, performance metrics mcc = 0.40, accuracy = 0.74, f1_score = 0.60
+======================================================================================
+Performance metrics of model gaussian_naive_bayes
+ -- mcc : Mean=0.3933, STD=0.0122
+ -- accuracy : Mean=0.7296, STD=0.0063
+ -- f1_score : Mean=0.5964, STD=0.0076
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'var_smoothing': 1e-08}
+--------------------------------------------------------------------------------------
+Cross valiation for gaussian_naive_bayes
+ -- Split #1, performance metrics mcc = 0.43, accuracy = 0.75, f1_score = 0.60
+ -- Split #2, performance metrics mcc = 0.40, accuracy = 0.74, f1_score = 0.58
+ -- Split #3, performance metrics mcc = 0.40, accuracy = 0.74, f1_score = 0.58
+ -- Split #4, performance metrics mcc = 0.40, accuracy = 0.74, f1_score = 0.59
+ -- Split #5, performance metrics mcc = 0.39, accuracy = 0.74, f1_score = 0.58
+======================================================================================
+Performance metrics of model gaussian_naive_bayes
+ -- mcc : Mean=0.4031, STD=0.0136
+ -- accuracy : Mean=0.7422, STD=0.0065
+ -- f1_score : Mean=0.5872, STD=0.0079
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'var_smoothing': 1e-07}
+--------------------------------------------------------------------------------------
+Cross valiation for gaussian_naive_bayes
+ -- Split #1, performance metrics mcc = 0.39, accuracy = 0.74, f1_score = 0.57
+ -- Split #2, performance metrics mcc = 0.41, accuracy = 0.75, f1_score = 0.59
+ -- Split #3, performance metrics mcc = 0.40, accuracy = 0.74, f1_score = 0.59
+ -- Split #4, performance metrics mcc = 0.41, accuracy = 0.74, f1_score = 0.59
+ -- Split #5, performance metrics mcc = 0.39, accuracy = 0.73, f1_score = 0.58
+======================================================================================
+Performance metrics of model gaussian_naive_bayes
+ -- mcc : Mean=0.3998, STD=0.0093
+ -- accuracy : Mean=0.7407, STD=0.0040
+ -- f1_score : Mean=0.5852, STD=0.0082
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'var_smoothing': 1e-06}
+--------------------------------------------------------------------------------------
+Cross valiation for gaussian_naive_bayes
+ -- Split #1, performance metrics mcc = 0.42, accuracy = 0.75, f1_score = 0.60
+ -- Split #2, performance metrics mcc = 0.38, accuracy = 0.73, f1_score = 0.58
+ -- Split #3, performance metrics mcc = 0.38, accuracy = 0.73, f1_score = 0.57
+ -- Split #4, performance metrics mcc = 0.39, accuracy = 0.74, f1_score = 0.58
+ -- Split #5, performance metrics mcc = 0.40, accuracy = 0.74, f1_score = 0.59
+======================================================================================
+Performance metrics of model gaussian_naive_bayes
+ -- mcc : Mean=0.3929, STD=0.0140
+ -- accuracy : Mean=0.7366, STD=0.0063
+ -- f1_score : Mean=0.5834, STD=0.0092
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'var_smoothing': 1e-05}
+--------------------------------------------------------------------------------------
+Cross valiation for gaussian_naive_bayes
+ -- Split #1, performance metrics mcc = 0.40, accuracy = 0.74, f1_score = 0.59
+ -- Split #2, performance metrics mcc = 0.39, accuracy = 0.74, f1_score = 0.58
+ -- Split #3, performance metrics mcc = 0.37, accuracy = 0.73, f1_score = 0.57
+ -- Split #4, performance metrics mcc = 0.38, accuracy = 0.73, f1_score = 0.58
+ -- Split #5, performance metrics mcc = 0.39, accuracy = 0.74, f1_score = 0.59
+======================================================================================
+Performance metrics of model gaussian_naive_bayes
+ -- mcc : Mean=0.3868, STD=0.0096
+ -- accuracy : Mean=0.7339, STD=0.0041
+ -- f1_score : Mean=0.5794, STD=0.0067
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'var_smoothing': 0.0001}
+--------------------------------------------------------------------------------------
+Cross valiation for gaussian_naive_bayes
+ -- Split #1, performance metrics mcc = 0.39, accuracy = 0.74, f1_score = 0.58
+ -- Split #2, performance metrics mcc = 0.40, accuracy = 0.74, f1_score = 0.59
+ -- Split #3, performance metrics mcc = 0.40, accuracy = 0.74, f1_score = 0.58
+ -- Split #4, performance metrics mcc = 0.37, accuracy = 0.73, f1_score = 0.56
+ -- Split #5, performance metrics mcc = 0.41, accuracy = 0.74, f1_score = 0.59
+======================================================================================
+Performance metrics of model gaussian_naive_bayes
+ -- mcc : Mean=0.3921, STD=0.0137
+ -- accuracy : Mean=0.7372, STD=0.0059
+ -- f1_score : Mean=0.5807, STD=0.0097
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'var_smoothing': 0.001}
+--------------------------------------------------------------------------------------
+Cross valiation for gaussian_naive_bayes
+ -- Split #1, performance metrics mcc = 0.41, accuracy = 0.75, f1_score = 0.60
+ -- Split #2, performance metrics mcc = 0.37, accuracy = 0.73, f1_score = 0.57
+ -- Split #3, performance metrics mcc = 0.41, accuracy = 0.74, f1_score = 0.59
+ -- Split #4, performance metrics mcc = 0.38, accuracy = 0.73, f1_score = 0.58
+ -- Split #5, performance metrics mcc = 0.37, accuracy = 0.73, f1_score = 0.57
+======================================================================================
+Performance metrics of model gaussian_naive_bayes
+ -- mcc : Mean=0.3894, STD=0.0190
+ -- accuracy : Mean=0.7355, STD=0.0083
+ -- f1_score : Mean=0.5801, STD=0.0127
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'var_smoothing': 0.01}
+--------------------------------------------------------------------------------------
+Cross valiation for gaussian_naive_bayes
+ -- Split #1, performance metrics mcc = 0.40, accuracy = 0.74, f1_score = 0.59
+ -- Split #2, performance metrics mcc = 0.40, accuracy = 0.74, f1_score = 0.59
+ -- Split #3, performance metrics mcc = 0.38, accuracy = 0.73, f1_score = 0.57
+ -- Split #4, performance metrics mcc = 0.39, accuracy = 0.74, f1_score = 0.58
+ -- Split #5, performance metrics mcc = 0.39, accuracy = 0.74, f1_score = 0.58
+======================================================================================
+Performance metrics of model gaussian_naive_bayes
+ -- mcc : Mean=0.3922, STD=0.0073
+ -- accuracy : Mean=0.7372, STD=0.0031
+ -- f1_score : Mean=0.5808, STD=0.0057
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'var_smoothing': 0.1}
+--------------------------------------------------------------------------------------
+Cross valiation for gaussian_naive_bayes
+ -- Split #1, performance metrics mcc = 0.43, accuracy = 0.75, f1_score = 0.60
+ -- Split #2, performance metrics mcc = 0.42, accuracy = 0.75, f1_score = 0.59
+ -- Split #3, performance metrics mcc = 0.41, accuracy = 0.75, f1_score = 0.58
+ -- Split #4, performance metrics mcc = 0.40, accuracy = 0.75, f1_score = 0.57
+ -- Split #5, performance metrics mcc = 0.43, accuracy = 0.76, f1_score = 0.60
+======================================================================================
+Performance metrics of model gaussian_naive_bayes
+ -- mcc : Mean=0.4177, STD=0.0106
+ -- accuracy : Mean=0.7513, STD=0.0043
+ -- f1_score : Mean=0.5888, STD=0.0088
+--------------------------------------------------------------------------------------
+
+Best hyper-parameters set:
+{'var_smoothing': 0.1}
+
+Test results :
+{'mcc': 0.32391751033856814, 'accuracy': 0.8180913413690147, 'f1_score': 0.4139650872817955}
+
+Checkpoint saved to ./checkpoints\tuned_with_oversampling\gaussian_naive_bayes.pkl

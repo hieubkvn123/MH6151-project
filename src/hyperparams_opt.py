@@ -3,7 +3,7 @@ from src.bayes import VotingBayesClassifier, StackingBayesClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier, AdaBoostClassifier
-from sklearn.metrics import matthews_corrcoef, accuracy_score, f1_score
+from sklearn.metrics import matthews_corrcoef, accuracy_score, f1_score, precision_score, recall_score
 
 models = {
     'decision_tree' : {
@@ -112,4 +112,12 @@ metrics = {
     'mcc' : matthews_corrcoef,
     'accuracy' : accuracy_score,
     'f1_score' : f1_score 
+}
+
+final_report_metrics = {
+    'mcc' : matthews_corrcoef,
+    'accuracy' : accuracy_score,
+    'f1_score' : f1_score,
+    'precision' : precision_score,
+    'recall_score' : recall_score
 }

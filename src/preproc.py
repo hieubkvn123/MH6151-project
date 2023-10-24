@@ -54,7 +54,8 @@ def preproc_df_for_tree_algos(df):
     df = df.rename(columns={'y' : 'subscription'})
 
     # Remove duration
-    df = df.drop(columns='duration')
+    if('duration' in df.columns):
+        df = df.drop(columns='duration')
 
     # All preprocessing steps
     df['job'] = job_labelenc.fit_transform(df['job'])

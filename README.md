@@ -18,6 +18,23 @@ python modelling.py --model_name random_forest --output_file outputs/random_fore
 python modelling.py --model_name random_forest --output_file outputs/random_forest.txt --oversampling
 ```
 
+## 3. Mass-run the modelling
+### 3.1. For linux
+```bash
+scripts/modelling.sh && scripts/modelling_oversampling.sh
+```
+
+### 3.2. For windows
+```bash
+.\scripts\modelling.bat
+.\scripts\modelling_oversampling.bat
+```
+
+## 4. Get the final performance metrics
+```bash
+python modelling_insights.py > performance.txt
+```
+
 # References
 - Random oversampling and undersampling for imbalanced classification : [Link](https://machinelearningmastery.com/random-oversampling-and-undersampling-for-imbalanced-classification/).
 - AdaBoost Algorithm: Understand, Implement and Master AdaBoost : [Link](https://www.analyticsvidhya.com/blog/2021/09/adaboost-algorithm-a-complete-guide-for-beginners/).
