@@ -19,7 +19,6 @@ def test(model, X_test, Y_test):
     return results
 
 if __name__ == '__main__':
-
     for model_name, item in hyperparams_opt.models.items():
         # Report model name
         print(f'\n{model_name}')
