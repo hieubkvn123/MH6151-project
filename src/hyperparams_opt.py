@@ -1,5 +1,6 @@
 import xgboost as xgb
 from src.bayes import VotingBayesClassifier, StackingBayesClassifier
+from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier, AdaBoostClassifier
 from sklearn.metrics import matthews_corrcoef, accuracy_score, f1_score
@@ -97,6 +98,13 @@ models = {
             'stack_method' : ['auto', 'predict_proba', 'predict']
         },
         'ckpt_filename' : 'stacking_naive_bayes.pkl'
+    },
+    'gaussian_naive_bayes' : {
+        'model_class' : GaussianNB,
+        'hyperparams' : {
+            'var_smoothing' : [1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 1e-1]
+        },
+        'ckpt_filename' : 'gaussian_naive_bayes.pkl'
     }
 }
 
