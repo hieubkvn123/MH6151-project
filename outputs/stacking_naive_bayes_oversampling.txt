@@ -1,0 +1,59 @@
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'cat_cols': ['job_0', 'job_1', 'job_2', 'job_3', 'job_4', 'job_5', 'job_6', 'job_7', 'job_8', 'job_9', 'job_10', 'job_11', 'marital_0', 'marital_1', 'marital_2', 'contact_0', 'contact_1', 'contact_2', 'poutcome_0', 'poutcome_1', 'poutcome_2', 'poutcome_3', 'education_0', 'education_1', 'education_2', 'education_3', 'month_1', 'month_2', 'month_3', 'month_4', 'month_5', 'month_6', 'month_7', 'month_8', 'month_9', 'month_10', 'month_11', 'month_12', 'default_0', 'default_1', 'housing_0', 'housing_1', 'loan_0', 'loan_1'], 'num_cols': ['age', 'day', 'campaign', 'pdays', 'previous'], 'stack_method': 'auto'}
+--------------------------------------------------------------------------------------
+Cross valiation for stacking_naive_bayes
+ -- Split #1, performance metrics mcc = 0.39, accuracy = 0.74, f1_score = 0.56
+ -- Split #2, performance metrics mcc = 0.40, accuracy = 0.75, f1_score = 0.57
+ -- Split #3, performance metrics mcc = 0.40, accuracy = 0.75, f1_score = 0.56
+ -- Split #4, performance metrics mcc = 0.40, accuracy = 0.75, f1_score = 0.57
+ -- Split #5, performance metrics mcc = 0.38, accuracy = 0.74, f1_score = 0.55
+======================================================================================
+Performance metrics of model stacking_naive_bayes
+ -- mcc : Mean=0.3951, STD=0.0094
+ -- accuracy : Mean=0.7450, STD=0.0033
+ -- f1_score : Mean=0.5606, STD=0.0094
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'cat_cols': ['job_0', 'job_1', 'job_2', 'job_3', 'job_4', 'job_5', 'job_6', 'job_7', 'job_8', 'job_9', 'job_10', 'job_11', 'marital_0', 'marital_1', 'marital_2', 'contact_0', 'contact_1', 'contact_2', 'poutcome_0', 'poutcome_1', 'poutcome_2', 'poutcome_3', 'education_0', 'education_1', 'education_2', 'education_3', 'month_1', 'month_2', 'month_3', 'month_4', 'month_5', 'month_6', 'month_7', 'month_8', 'month_9', 'month_10', 'month_11', 'month_12', 'default_0', 'default_1', 'housing_0', 'housing_1', 'loan_0', 'loan_1'], 'num_cols': ['age', 'day', 'campaign', 'pdays', 'previous'], 'stack_method': 'predict_proba'}
+--------------------------------------------------------------------------------------
+Cross valiation for stacking_naive_bayes
+ -- Split #1, performance metrics mcc = 0.38, accuracy = 0.74, f1_score = 0.55
+ -- Split #2, performance metrics mcc = 0.40, accuracy = 0.75, f1_score = 0.56
+ -- Split #3, performance metrics mcc = 0.41, accuracy = 0.75, f1_score = 0.57
+ -- Split #4, performance metrics mcc = 0.43, accuracy = 0.76, f1_score = 0.59
+ -- Split #5, performance metrics mcc = 0.41, accuracy = 0.75, f1_score = 0.57
+======================================================================================
+Performance metrics of model stacking_naive_bayes
+ -- mcc : Mean=0.4050, STD=0.0155
+ -- accuracy : Mean=0.7488, STD=0.0060
+ -- f1_score : Mean=0.5682, STD=0.0125
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'cat_cols': ['job_0', 'job_1', 'job_2', 'job_3', 'job_4', 'job_5', 'job_6', 'job_7', 'job_8', 'job_9', 'job_10', 'job_11', 'marital_0', 'marital_1', 'marital_2', 'contact_0', 'contact_1', 'contact_2', 'poutcome_0', 'poutcome_1', 'poutcome_2', 'poutcome_3', 'education_0', 'education_1', 'education_2', 'education_3', 'month_1', 'month_2', 'month_3', 'month_4', 'month_5', 'month_6', 'month_7', 'month_8', 'month_9', 'month_10', 'month_11', 'month_12', 'default_0', 'default_1', 'housing_0', 'housing_1', 'loan_0', 'loan_1'], 'num_cols': ['age', 'day', 'campaign', 'pdays', 'previous'], 'stack_method': 'predict'}
+--------------------------------------------------------------------------------------
+Cross valiation for stacking_naive_bayes
+ -- Split #1, performance metrics mcc = 0.37, accuracy = 0.72, f1_score = 0.59
+ -- Split #2, performance metrics mcc = 0.39, accuracy = 0.72, f1_score = 0.60
+ -- Split #3, performance metrics mcc = 0.38, accuracy = 0.72, f1_score = 0.59
+ -- Split #4, performance metrics mcc = 0.36, accuracy = 0.71, f1_score = 0.58
+ -- Split #5, performance metrics mcc = 0.38, accuracy = 0.72, f1_score = 0.59
+======================================================================================
+Performance metrics of model stacking_naive_bayes
+ -- mcc : Mean=0.3758, STD=0.0093
+ -- accuracy : Mean=0.7181, STD=0.0043
+ -- f1_score : Mean=0.5898, STD=0.0062
+--------------------------------------------------------------------------------------
+
+Best hyper-parameters set:
+{'cat_cols': ['job_0', 'job_1', 'job_2', 'job_3', 'job_4', 'job_5', 'job_6', 'job_7', 'job_8', 'job_9', 'job_10', 'job_11', 'marital_0', 'marital_1', 'marital_2', 'contact_0', 'contact_1', 'contact_2', 'poutcome_0', 'poutcome_1', 'poutcome_2', 'poutcome_3', 'education_0', 'education_1', 'education_2', 'education_3', 'month_1', 'month_2', 'month_3', 'month_4', 'month_5', 'month_6', 'month_7', 'month_8', 'month_9', 'month_10', 'month_11', 'month_12', 'default_0', 'default_1', 'housing_0', 'housing_1', 'loan_0', 'loan_1'], 'num_cols': ['age', 'day', 'campaign', 'pdays', 'previous'], 'stack_method': 'predict_proba'}
+
+Test results :
+{'mcc': 0.3215514955177199, 'accuracy': 0.8272697113789672, 'f1_score': 0.41189759036144574}
+
+Checkpoint saved to ./checkpoints\with_oversampling\stacking_naive_bayes.pkl

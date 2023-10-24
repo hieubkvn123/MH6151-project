@@ -1,0 +1,42 @@
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'cat_cols': ['job_0', 'job_1', 'job_2', 'job_3', 'job_4', 'job_5', 'job_6', 'job_7', 'job_8', 'job_9', 'job_10', 'job_11', 'marital_0', 'marital_1', 'marital_2', 'contact_0', 'contact_1', 'contact_2', 'poutcome_0', 'poutcome_1', 'poutcome_2', 'poutcome_3', 'education_0', 'education_1', 'education_2', 'education_3', 'month_1', 'month_2', 'month_3', 'month_4', 'month_5', 'month_6', 'month_7', 'month_8', 'month_9', 'month_10', 'month_11', 'month_12', 'default_0', 'default_1', 'housing_0', 'housing_1', 'loan_0', 'loan_1'], 'num_cols': ['age', 'day', 'campaign', 'pdays', 'previous'], 'voting': 'hard'}
+--------------------------------------------------------------------------------------
+Cross valiation for voting_naive_bayes
+ -- Split #1, performance metrics mcc = 0.16, accuracy = 0.88, f1_score = 0.13
+ -- Split #2, performance metrics mcc = 0.16, accuracy = 0.88, f1_score = 0.12
+ -- Split #3, performance metrics mcc = 0.14, accuracy = 0.88, f1_score = 0.12
+ -- Split #4, performance metrics mcc = 0.16, accuracy = 0.88, f1_score = 0.13
+ -- Split #5, performance metrics mcc = 0.16, accuracy = 0.88, f1_score = 0.13
+======================================================================================
+Performance metrics of model voting_naive_bayes
+ -- mcc : Mean=0.1546, STD=0.0081
+ -- accuracy : Mean=0.8833, STD=0.0011
+ -- f1_score : Mean=0.1281, STD=0.0051
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Parameters set : {'cat_cols': ['job_0', 'job_1', 'job_2', 'job_3', 'job_4', 'job_5', 'job_6', 'job_7', 'job_8', 'job_9', 'job_10', 'job_11', 'marital_0', 'marital_1', 'marital_2', 'contact_0', 'contact_1', 'contact_2', 'poutcome_0', 'poutcome_1', 'poutcome_2', 'poutcome_3', 'education_0', 'education_1', 'education_2', 'education_3', 'month_1', 'month_2', 'month_3', 'month_4', 'month_5', 'month_6', 'month_7', 'month_8', 'month_9', 'month_10', 'month_11', 'month_12', 'default_0', 'default_1', 'housing_0', 'housing_1', 'loan_0', 'loan_1'], 'num_cols': ['age', 'day', 'campaign', 'pdays', 'previous'], 'voting': 'soft'}
+--------------------------------------------------------------------------------------
+Cross valiation for voting_naive_bayes
+ -- Split #1, performance metrics mcc = 0.32, accuracy = 0.88, f1_score = 0.37
+ -- Split #2, performance metrics mcc = 0.27, accuracy = 0.87, f1_score = 0.34
+ -- Split #3, performance metrics mcc = 0.31, accuracy = 0.88, f1_score = 0.36
+ -- Split #4, performance metrics mcc = 0.29, accuracy = 0.88, f1_score = 0.35
+ -- Split #5, performance metrics mcc = 0.30, accuracy = 0.88, f1_score = 0.35
+======================================================================================
+Performance metrics of model voting_naive_bayes
+ -- mcc : Mean=0.3013, STD=0.0171
+ -- accuracy : Mean=0.8797, STD=0.0050
+ -- f1_score : Mean=0.3504, STD=0.0110
+--------------------------------------------------------------------------------------
+
+Best hyper-parameters set:
+{'cat_cols': ['job_0', 'job_1', 'job_2', 'job_3', 'job_4', 'job_5', 'job_6', 'job_7', 'job_8', 'job_9', 'job_10', 'job_11', 'marital_0', 'marital_1', 'marital_2', 'contact_0', 'contact_1', 'contact_2', 'poutcome_0', 'poutcome_1', 'poutcome_2', 'poutcome_3', 'education_0', 'education_1', 'education_2', 'education_3', 'month_1', 'month_2', 'month_3', 'month_4', 'month_5', 'month_6', 'month_7', 'month_8', 'month_9', 'month_10', 'month_11', 'month_12', 'default_0', 'default_1', 'housing_0', 'housing_1', 'loan_0', 'loan_1'], 'num_cols': ['age', 'day', 'campaign', 'pdays', 'previous'], 'voting': 'soft'}
+
+Test results :
+{'mcc': 0.3034828026455256, 'accuracy': 0.8764790445648568, 'f1_score': 0.3539618276460382}
+
+Checkpoint saved to ./checkpoints\voting_naive_bayes.pkl
