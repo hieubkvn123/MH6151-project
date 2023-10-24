@@ -32,7 +32,7 @@ scripts/modelling.sh && scripts/modelling_oversampling.sh
 
 ## 4. Get the final performance metrics
 ```bash
-python modelling_insights.py > performance.txt
+python modelling_insights.py > outputs/performance.txt
 ```
 
 # References
