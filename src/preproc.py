@@ -1,9 +1,12 @@
 import os
 import pickle
 import pathlib
-from sklearn.preprocessing import LabelEncoder
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 LABEL_ENC_FOLDER = './encoders'
+NUM_ENC_FOLDER = './encoders'
+
 if(not os.path.exists(LABEL_ENC_FOLDER)):
     pathlib.Path(LABEL_ENC_FOLDER).mkdir(parents=True, exist_ok=True)
 
@@ -74,5 +77,37 @@ def preproc_df_for_tree_algos(df):
         pickle.dump(contact_labelenc, f)
     with open(encoders['poutcome'], 'wb') as f:
         pickle.dump(poutcome_labelenc, f)
+
+    return df
+
+def preproc_df_for_bayes_algos(df):
+    # Label encode the categorical data
+    df = preproc_df_for_tree_algos(df)
+
+    # Onehot encode
+    categorical_columns = [
+        'job', 'marital', 'contact', 'poutcome', 'education',
+        'month', 'default', 'housing', 'loan'
+    ]
+    numeric_columns = [x for x in df.columns if x not in categorical_columns + ['subscription', 'Unnamed: 0']]
+
+    # Standard scaler
+    for col in numeric_columns:
+        enc_file = os.path.join(NUM_ENC_FOLDER, f'{col}_standardscaler.pkl')
+        if(not os.path.exists(enc_file)):
+            # Do the scaling
+            scaler = StandardScaler()
+            df[col] = scaler.fit_transform(df[col].values.reshape(-1, 1))
+
+            # Save the encoder
+            with open(enc_file, 'wb') as f:
+                pickle.dump(scaler, f)
+        else:
+            with open(enc_file, 'rb') as f:
+                scaler = pickle.load(f)
+                df[col] = scaler.transform(df[col].values.reshape(-1, 1))
+        
+    # One-hot encode cat columns
+    df = pd.get_dummies(df, columns=categorical_columns)
 
     return df

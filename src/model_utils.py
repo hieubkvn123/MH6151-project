@@ -16,10 +16,10 @@ def k_fold_validation(features, targets, models, metrics, k=5):
             Y_train, Y_val = targets.loc[train_index], targets.loc[val_index]
 
             # Fit all models
-            model.fit(X_train.values, Y_train.values)
+            model.fit(X_train, Y_train.values)
             
             # Let all models make predictions on the validation dataset
-            pred = model.predict(X_val.values)
+            pred = model.predict(X_val)
             
             # Calculate performance metrics
             print(f' -- Split #{i+1}, performance metrics ', end='')
@@ -75,6 +75,12 @@ def hyperparams_tuning(X, y, model_class, hyperparams, metrics, target_metric=No
         print('\n\n--------------------------------------------------------------------------------------')
         print(f'Parameters set : {param_dict}')
         summarized_metrics = k_fold_validation(X, y, {model_name : model}, metrics)
+
+        param = list(param)
+        for i in range(len(param)):
+            if(isinstance(param[i], list)):
+                param[i] = '-'.join(param[i])
+        param = tuple(param)
         results[param] = summarized_metrics
 
         # Reset best metric and best param

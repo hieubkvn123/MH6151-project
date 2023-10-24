@@ -22,7 +22,7 @@ if __name__ == '__main__':
     ### Argument parser ###
     parser = ArgumentParser()
     parser.add_argument('--model_name', type=str, required=False, 
-            choices=['decision_tree', 'random_forest', 'gradient_boost_tree', 'adaboost', 'xgboost'],
+            choices=['decision_tree', 'random_forest', 'gradient_boost_tree', 'adaboost', 'xgboost', 'naive_bayes'],
             help='Model to start training', default='decision_tree')
     parser.add_argument('--output_file', type=str, required=False, help='Path to output file')
     parser.add_argument('--oversampling', required=False, action='store_true', help='Oversampling or not')
@@ -34,8 +34,12 @@ if __name__ == '__main__':
 
     ### 2. Preprocessing dataframes ###
     # Load train + test dataframes
-    train_df = preproc_df_for_tree_algos(train_df) 
-    test_df  = preproc_df_for_tree_algos(test_df)
+    if(args['model_name'] != 'naive_bayes'):
+        train_df = preproc_df_for_tree_algos(train_df) 
+        test_df  = preproc_df_for_tree_algos(test_df)
+    else:
+        train_df = preproc_df_for_bayes_algos(train_df) 
+        test_df  = preproc_df_for_bayes_algos(test_df)
 
     # Get feature + target columns
     target_col = 'subscription'
