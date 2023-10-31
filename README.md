@@ -1,5 +1,5 @@
 # MH6151-project
-MH6151 Data Mining project
+NTU-SPMS-MH6151 Data Mining project
 
 ## 1. Set-up
 - Install requirements with the following command:
